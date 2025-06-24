@@ -25,6 +25,9 @@ In a letter to *The Lancet HIV* editors (18 Jun 2025) we documented that the Com
 
 *Detailed per-model hallucination rates are included in the statistics files but are secondary to the source-misattribution finding.*
 
+### 🗣️ Terminology note  
+Throughout this repository we use "AI hallucination" as a shorthand, even though the behaviour we investigate is more nuanced than inventing facts out of thin air.  In this case the models **conflate** two genuine statements of the Audere white paper—AI in Kenya and tele-PrEP in Nigeria—and merge them into a single, misleading claim.  The output is therefore better described as *source-blend hallucination* or *AI conflation*, but we keep the familiar term for searchability and to align with the broader literature on LLM errors.
+
 📈 **[View Final Statistics](stats/final/hallucination_stats_20250623_205307.csv)**
 
 📋 **[View Complete Results](results/final/)**
