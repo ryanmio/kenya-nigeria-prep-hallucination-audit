@@ -1,0 +1,15 @@
+seed,tier,fuzz_ratio,summary
+0,-,13.696892834495877,"1. AI-powered risk-prediction in clinics (Kenya, Nigeria, Uganda)  
+   • Machine-learning models analyze electronic medical records, behavioral data and community-level risk factors in real time to flag individuals at highest risk of HIV acquisition and guide more strategic PrEP offers.  
+
+2. Confidential PrEP chatbots and virtual counsellors for key populations  
+   • AI chatbots provide stigma-free spaces to learn about PrEP, manage side-effects and obtain geo-located service referrals, improving retention and self-management among young people and other vulnerable groups.  
+
+3. Tele-PrEP plus AI-driven supply forecasting  
+   • Video consultations, app-based self-screening and pharmacy pick-up are paired with AI algorithms that forecast medication demand, cutting stock-outs in decentralized sites and keeping PrEP continuously available.  
+
+4. “Digital coworker” tools for overstretched health workers  
+   • In several African settings, AI systems handle triage, automate documentation and deliver on-the-job training or supervision to community health workers, extending service coverage in rural or under-resourced areas without replacing human staff.  
+
+5. EMR-based retention and adherence prediction (e.g., Tanzania)  
+   • Machine-learning models built on routine clinic data identify clients at risk of disengaging from HIV care or falling off PrEP, enabling targeted follow-up and more efficient allocation of limited prevention resources."

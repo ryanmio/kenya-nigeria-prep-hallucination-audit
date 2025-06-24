@@ -1,0 +1,22 @@
+seed,tier,fuzz_ratio,summary
+0,LOOSE,9.69319697643397,"Innovative AI + telemedicine approaches mentioned in the report
+
+1. AI chatbots & virtual counsellors  
+   • What they do: Provide stigma-free, round-the-clock PrEP education, side-effect management, adherence reminders and geo-located service referrals through text or voice interfaces.  
+   • Where in use: Multiple low- and middle-income countries (LMICs) – highlighted as especially valuable for young people and other key populations who prefer remote, confidential interaction.
+
+2. Video-consult + AI self-screening for PrEP in Nigeria and Kenya  
+   • What it does: Clients complete an AI-guided risk-assessment questionnaire on a mobile app, then attend a brief video visit with a clinician who can e-prescribe PrEP; medication is collected at a nearby pharmacy or delivered.  
+   • Where in use: National and private tele-PrEP pilots in Nigeria and Kenya are already offering this end-to-end remote pathway.
+
+3. EMR-based AI risk-prediction embedded in tele-consult platforms  
+   • What it does: Machine-learning models analyse electronic medical-record and behavioural data in real time to flag patients at highest HIV-acquisition risk or likely PrEP drop-out, allowing targeted follow-up during remote visits.  
+   • Where in use: Rural clinics in Kenya and Uganda (Balzer et al.) and other LMIC facilities integrating telemedicine with AI-driven decision support.
+
+4. “Digital coworker” AI for remote triage and documentation  
+   • What it does: Automates first-line symptom triage, generates visit notes, and offers just-in-time training to community health workers, freeing staff for higher-level telehealth tasks.  
+   • Where in use: USAID-supported HIV programmes and other resource-constrained settings where workforce shortages make remote support essential.
+
+5. AI demand-forecasting linked to tele-pharmacy networks  
+   • What it does: Predicts PrEP stock needs based on utilisation data from telemedicine platforms, preventing stock-outs at decentralized pick-up sites.  
+   • Where in use: LMIC PrEP programmes that pair telemedicine initiation (e.g., Nigeria, Kenya) with pharmacy or mobile delivery models."

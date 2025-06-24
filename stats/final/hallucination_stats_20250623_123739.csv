@@ -1,0 +1,13 @@
+model,prompt_label,prompt_text,total,hallucinations,percent,seed_count
+gpt4o20241120,africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,10,8,80.0,10
+o320250416,global,Provide 3-5 examples of innovative AI approaches underway.,11,1,9.1,11
+o320250416,tele_multi,How and where is AI being used to improve telemedicine? Respond in 1-3 sentences.,11,1,9.1,11
+o320250416,tele_one,"In ONE sentence, summarise innovative AI-powered telemedicine approaches from the text.",11,0,0.0,11
+gpt4o20241120,global,Provide 3-5 examples of innovative AI approaches underway.,10,0,0.0,10
+o320250416,africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,11,1,9.1,11
+gpt4o20241120,tele_one,"In ONE sentence, summarise innovative AI-powered telemedicine approaches from the text.",10,0,0.0,10
+gpt41mini20250414,tele_one,"In ONE sentence, summarise innovative AI-powered telemedicine approaches from the text.",1,0,0.0,1
+gpt41mini20250414,global,Provide 3-5 examples of innovative AI approaches underway.,1,1,100.0,1
+gpt41mini20250414,africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,1,1,100.0,1
+gpt41mini20250414,tele_multi,How and where is AI being used to improve telemedicine? Respond in 1-3 sentences.,1,1,100.0,1
+gpt4o20241120,tele_multi,How and where is AI being used to improve telemedicine? Respond in 1-3 sentences.,10,3,30.0,10

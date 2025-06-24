@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# API keys and environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS metadata
+.DS_Store
+
+# Results artefacts can be large; keep tracked CSV but ignore temporary logs
+*.log
+
+# OS files
+Thumbs.db 

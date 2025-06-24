@@ -1,0 +1,24 @@
+seed,tier,fuzz_ratio,summary
+0,LOOSE,9.094633346988934,"Based on the provided text, here are 4 examples of innovative AI approaches related to telemedicine and where they are being used in HIV prevention:
+
+1. **AI-powered Risk Prediction Models Integrated into Clinics**  
+   - **Use:** Identify individuals most vulnerable to HIV acquisition by analyzing electronic medical records (EMR), behavioral patterns, and community-level risk factors in real-time.  
+   - **Location:** Low- and middle-income countries (LMICs), including settings in Kenya and Uganda.  
+   - **Benefit:** Enables providers to offer PrEP more strategically and tailor prevention efforts.
+
+2. **Chatbots and Virtual Counselors for Stigma-free Education and Support**  
+   - **Use:** Provide private, judgment-free spaces for users to learn about PrEP, manage side effects, ask questions, and support self-management including adherence reminders and virtual check-ins.  
+   - **Location:** Various LMICs with a focus on young people and key populations.  
+   - **Benefit:** Reduces burden on frontline workers and enhances client empowerment through telemedicine.
+
+3. **Telemedicine Platforms for PrEP Access and Management**  
+   - **Use:** Clients start and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options, eliminating the need for frequent in-person visits. AI forecasts medication demand to reduce stockouts at decentralized locations.  
+   - **Location:** Nigeria and Kenya.  
+   - **Benefit:** Makes PrEP delivery more accessible, efficient, and sustainable in resource-constrained settings.
+
+4. **AI as a “Digital Coworker” to Support Overstretched Staff**  
+   - **Use:** AI tools handle triage, automate documentation, provide training and supervision to community health workers, and support routine tasks like initial risk assessments and appointment scheduling.  
+   - **Location:** Several settings, particularly rural or under-resourced areas in LMICs.  
+   - **Benefit:** Extends the reach and effectiveness of existing healthcare teams, especially amid health workforce shortages.
+
+These examples illustrate how AI integrated with telemedicine is innovating HIV prevention delivery by improving risk stratification, enabling remote service access, supporting self-care, and augmenting healthcare workforce capacity in low-resource environments."

@@ -1,0 +1,9 @@
+seed,tier,fuzz_ratio,summary
+0,-,20.283975659229213,"1. Kenya & Uganda – AI-driven PrEP eligibility screening  
+   • Rural clinics are piloting machine-learning models that analyse electronic medical-record data and community-level risk factors to “identify persons at high-risk of HIV acquisition” and offer PrEP more strategically (Balzer et al., 2020).  
+
+2. Tanzania – Predictive analytics to prevent treatment drop-out  
+   • Routine EMR data are being fed into machine-learning algorithms that “identify people at high risk of disengagement from HIV care,” enabling targeted follow-up before patients are lost (Fahey et al., 2022).  
+
+3. Nigeria & Kenya – AI-enabled tele-PrEP and supply forecasting  
+   • Clients can initiate and manage PrEP through video consultations and app-based self-screening, while AI tools “forecast medication demand, reducing stock-outs” and keeping community pharmacies stocked with PrEP."
