@@ -10,7 +10,11 @@ when asked to summarize the Audere white paper *"Leveraging AI to Enhance HIV Pr
 
 ## 🔍 Background
 
-This hallucination was discovered in a published Lancet *Comment* that **cites the PATH *ePrEP/ePEP Technical Considerations Guide***—yet contains a sentence that appears to come from the marketing-focused *Audere* white paper, which is **not** cited.  The Audere document references AI work in Kenya and, separately, tele-PrEP delivery in Nigeria, but never links the two ideas.  Our experiment shows that when large language models ingest the Audere text they frequently fuse those facts into the more dramatic Kenya + Nigeria + AI claim found in the Lancet article, whereas the PATH guide never triggers that hallucination.  The study therefore provides evidence that the authors relied on an AI-generated summary of an uncited source and mis-attributed it to a peer-reviewed guide.
+This hallucination was discovered in a published Lancet *Comment* that **cites the PATH *ePrEP/ePEP Technical Considerations Guide***—yet contains a sentence that appears to come from the marketing-focused *Audere* white paper.  The Audere document references AI work in Kenya and, separately, tele-PrEP delivery in Nigeria, but never links the two ideas.  Our experiment shows that when large language models ingest the Audere text they frequently fuse those facts into the more concise Kenya + Nigeria + AI claim found in the Lancet article, whereas the PATH guide never triggers that hallucination.  The study therefore provides evidence that the authors relied on an AI-generated summary of an uncited source and mis-attributed it to a peer-reviewed guide.
+
+### Why this matters
+
+In a letter to *The Lancet HIV* editors (18 Jun 2025) we documented that the Comment's crucial sentence is unsupported by its own references: the cited PATH guide is Kenya-only and mentions no AI in Nigeria, while the BMC stakeholder report contains no AI whatsoever.  Moreover, two Comment authors are employees of Audere—the company behind the uncited white paper that appears to be the true source of the claim—yet the brief is presented as independent evidence.  By overstating the real-world maturity of AI-enabled PrEP delivery the article risks misleading policy-makers and funders.  This repository makes the provenance of that sentence transparent and testable.
 
 ## 📊 Key Findings
 
