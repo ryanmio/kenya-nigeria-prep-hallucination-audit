@@ -1,0 +1,12 @@
+model,prompt_label,prompt_text,total,hallucinations,percent,seed_count
+gpt4o20241120,africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,12,9,75.0,12
+o320250416,global,Provide 3-5 examples of innovative AI approaches underway.,0,0,0.0,0
+unknown,africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,42,32,76.2,42
+o320250416,tele_multi,-,0,0,0.0,0
+unknown,global,Provide 3-5 examples of innovative AI approaches underway.,5,0,0.0,5
+one,sentence,-,5,0,0.0,5
+o320250416,tele_one,-,0,0,0.0,0
+gpt4o20241120,global,Provide 3-5 examples of innovative AI approaches underway.,10,1,10.0,10
+o320250416,africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,0,0,0.0,0
+gpt4o20241120,tele_one,-,10,0,0.0,10
+gpt4o20241120,tele_multi,-,10,3,30.0,10

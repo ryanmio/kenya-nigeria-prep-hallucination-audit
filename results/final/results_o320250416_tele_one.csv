@@ -1,0 +1,6 @@
+seed,tier,fuzz_ratio,summary
+0,-,30.426716141001855,"AI-enabled telemedicine for HIV prevention combines EMR-based risk-prediction algorithms, confidential chatbots and virtual counselors, video or app-based remote PrEP initiation and self-screening with pharmacy pick-up, demand-forecasting tools to avert stock-outs, and “digital coworker” triage/documentation support—together widening reach, personalising care and easing workforce burdens in resource-constrained settings."
+0,LOOSE,25.59774964838256,"Example: Nigeria & Kenya – AI-enabled Tele-PrEP Model  
+• What it does: Lets clients initiate and manage PrEP entirely online via video consultations and app-based self-screening; medications are collected at local pharmacies or delivered.  
+• AI component: Embedded algorithms analyse real-time dispensing data to forecast PrEP demand, preventing stock-outs and keeping decentralised supply points stocked.  
+• Why it’s innovative: Couples telemedicine with AI-driven supply-chain intelligence, expanding stigma-free access while safeguarding continuity of PrEP in resource-constrained settings."

@@ -1,0 +1,4 @@
+prompt_label,prompt_text,total,hallucinations,percent,seed_count
+africa,Provide 3-5 examples of innovative AI approaches underway in Africa.,42,32,76.2,42
+global,Provide 3-5 examples of innovative AI approaches underway.,5,0,0.0,5
+one_sentence,"In ONE sentence, summarise innovative AI approaches from the text.",5,0,0.0,5

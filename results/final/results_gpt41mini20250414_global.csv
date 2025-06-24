@@ -1,0 +1,455 @@
+seed,tier,fuzz_ratio,summary
+0,LOOSE,11.461619348054676,"Based on the provided report, here are 3 examples of innovative AI approaches related to telemedicine in HIV prevention and where they are being used:
+
+1. **AI-powered risk prediction models in clinics (Kenya and Uganda)**  
+   - These models analyze electronic medical record (EMR) data, behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition. This helps providers offer PrEP more strategically and tailor services effectively.  
+   - Reference: Machine learning to identify persons at high risk of HIV acquisition in rural Kenya and Uganda.
+
+2. **Chatbots and virtual counselors for stigma-free education and support (LMICs, including Nigeria and Kenya)**  
+   - AI-driven chatbots and virtual counselors provide private, judgment-free spaces for users to learn about PrEP, manage side effects, and ask questions. These tools facilitate HIV self-management and adherence support remotely, reducing the burden on frontline workers.  
+   - Telemedicine platforms in Nigeria and Kenya enable clients to start and manage PrEP via video consultations, app-based self-screening, and pharmacy pick-up options.
+
+3. **AI as a “digital coworker” to support overstretched health staff (various settings in LMICs)**  
+   - AI tools automate routine tasks such as triage, documentation, training, and supervision of community health workers. This extends the reach and effectiveness of human teams, especially in rural or under-resourced areas, enhancing service delivery and workforce efficiency.
+
+These innovations demonstrate AI's role in enhancing telemedicine by improving access, personalization, and efficiency of HIV prevention services, particularly in low- and middle-income countries like Kenya, Uganda, and Nigeria."
+0,LOOSE,9.900090826521346,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine in HIV prevention, along with where they are being used:
+
+1. **AI-powered risk prediction models integrated into clinics in Low- and Middle-Income Countries (LMICs)**  
+   - These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition. This enables providers to offer PrEP (pre-exposure prophylaxis) more strategically.  
+   - This approach is being used in LMICs broadly, with specific examples including countries like Kenya and Uganda where machine learning models have been applied for risk stratification.
+
+2. **Chatbots and virtual counselors providing stigma-free education and support for PrEP**  
+   - AI-driven chatbots offer private, judgment-free virtual spaces for users—especially young people and key populations—to learn about PrEP, manage side effects, and ask questions.  
+   - This method supports HIV self-management and reduces frontline worker burden. It is being piloted and used in various settings, including LMICs, to improve accessibility and adherence support.
+
+3. **Telemedicine-enabled PrEP delivery in Nigeria and Kenya**  
+   - Telemedicine platforms enable clients to start and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options, eliminating the need for frequent in-person visits.  
+   - AI is also used to forecast medication demand in these settings, reducing stockouts and ensuring steady PrEP supply at decentralized locations.
+
+Additionally, AI is being used as a ""digital coworker"" in several settings to support overstretched health staff by automating triage, documentation, and training, thereby extending the reach and effectiveness of healthcare teams in rural or under-resourced areas.
+
+These innovations illustrate how AI and telemedicine are transforming HIV prevention services in resource-constrained environments, making delivery smarter, more inclusive, and sustainable."
+1,LOOSE,8.753943217665617,"Based on the provided report excerpt, here are 3 examples of innovative AI approaches related to telemedicine in HIV prevention and where they are being used:
+
+1. **AI-powered Risk Prediction Models Integrated into Clinics in LMICs**  
+   - **Description:** These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition. This enables providers to offer pre-exposure prophylaxis (PrEP) more strategically.  
+   - **Use Cases:** Clinics in low- and middle-income countries (LMICs), particularly in Africa, are integrating these AI tools to enhance targeted prevention efforts.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support**  
+   - **Description:** AI-driven chatbots and virtual counselors provide private, judgment-free spaces where users—especially young people and key populations—can learn about PrEP, manage side effects, and ask questions remotely. These tools support HIV self-management through virtual check-ins and personalized digital reminders.  
+   - **Use Cases:** These tools are being piloted and used in LMICs to overcome stigma and improve engagement with prevention services.
+
+3. **Telemedicine Platforms in Nigeria and Kenya for PrEP Delivery**  
+   - **Description:** Telemedicine has enabled clients to start and manage PrEP without frequent in-person visits via video consultations, app-based self-screening, and pharmacy pick-up options. AI is also employed to forecast medication demand to reduce stockouts and maintain stable PrEP supply at decentralized locations.  
+   - **Use Cases:** Nigeria and Kenya are highlighted as countries where telemedicine combined with AI tools is making PrEP delivery smarter, more inclusive, and sustainable in resource-constrained settings.
+
+Additional relevant points include the use of AI as a ""digital coworker"" to support overstretched health staff by handling triage, automating documentation, and providing training, as well as AI-enabled tools at pharmacies and community access points to streamline client intake and follow-up without relying on traditional clinical infrastructure.
+
+These examples demonstrate how AI and telemedicine are being innovatively combined to enhance HIV prevention services, particularly PrEP delivery, in settings facing workforce shortages, stigma, and resource constraints."
+2,STRICT,9.035409035409037,"Based on the provided report on artificial intelligence (AI) enhancing HIV prevention and telemedicine, here are 2-3 examples of innovative AI approaches related to telemedicine and where they are being used:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya, Uganda, Tanzania)**  
+   - AI and machine learning models are integrated into clinics in low- and middle-income countries (LMICs) like Kenya, Uganda, and Tanzania to identify individuals at highest risk of HIV acquisition. These models analyze electronic medical record (EMR) data, behavioral patterns, and community-level risk factors in real time. This helps healthcare providers offer pre-exposure prophylaxis (PrEP) more strategically and tailor prevention services based on personalized risk stratification.  
+   - Reference: Balzer et al. (2020), Fahey et al. (2022)
+
+2. **AI-Enabled Chatbots and Virtual Counselors for HIV Self-Management and Stigma-Free Support (LMICs including Kenya and Nigeria)**  
+   - Chatbots and virtual counselors powered by AI provide stigma-free education, adherence support, and side effect management for PrEP users. These tools offer private, judgment-free spaces for individuals, especially young people and key populations, to learn about HIV prevention and manage their care remotely. Such AI tools also include virtual check-ins and personalized digital reminders to help users adhere to treatment regimens.  
+   - Reference: Ma et al. (2025), Saif-Ur-Rahman et al. (2023)
+
+3. **Telemedicine Platforms for PrEP Access Using AI Forecasting and Virtual Consultations (Nigeria and Kenya)**  
+   - Telemedicine innovations in Nigeria and Kenya allow clients to start and manage PrEP without frequent clinic visits through video consultations, app-based self-screening, and pharmacy pick-ups. AI is used to forecast medication demand, reducing stockouts and ensuring a stable supply at decentralized locations. This integration of AI and telemedicine expands PrEP delivery in resource-constrained settings by making healthcare more accessible, efficient, and sustainable.  
+   - Reference: Report text on telemedicine innovations in Kenya and Nigeria
+
+These examples illustrate how AI complements telemedicine to improve HIV prevention by enhancing risk assessment, supporting self-management, and increasing access to services in LMICs."
+3,LOOSE,10.750605326876517,"Based on the provided report on AI to enhance HIV prevention, here are 3 examples of innovative AI approaches related to telemedicine and their usage settings:
+
+1. **AI-Powered Risk Prediction Models Integrated into Clinics (LMICs including Kenya and Uganda):**  
+   - These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition.  
+   - This allows providers to offer pre-exposure prophylaxis (PrEP) more strategically.  
+   - Example setting: Clinics in rural Kenya and Uganda use machine learning models for HIV risk stratification.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support (Used in multiple LMICs):**  
+   - AI-enabled chatbots provide private, judgment-free spaces for users to learn about PrEP, manage side effects, ask questions, and receive personalized digital reminders.  
+   - These tools support HIV self-management and adherence, especially critical for young people and key populations facing stigma.  
+   - Example: Studies demonstrate usability of AI chatbots for promoting HIV self-management.
+
+3. **Telemedicine Platforms for PrEP Delivery (Nigeria and Kenya):**  
+   - Telemedicine enables clients to start and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options, eliminating the need for frequent in-person visits.  
+   - AI further supports these platforms by forecasting medication demand to reduce stockouts and maintain stable PrEP supply at decentralized locations.  
+   - Example: Telemedicine-based PrEP access with AI demand forecasting is actively used in Nigeria and Kenya.
+
+These approaches demonstrate how AI combined with telemedicine expands access, personalizes care, reduces stigma, and optimizes resource allocation in HIV prevention programs, particularly in resource-constrained low- and middle-income countries."
+4,LOOSE,10.47018904507998,"Based on the provided report on artificial intelligence (AI) in HIV prevention and telemedicine, here are 3 examples of innovative AI approaches related to telemedicine and their usage locations:
+
+1. **AI-powered risk prediction models integrated into clinics in low- and middle-income countries (LMICs):**  
+   These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition. This helps providers offer pre-exposure prophylaxis (PrEP) more strategically. Such AI risk stratification tools are being used in countries like Kenya and Uganda to improve targeting of prevention services.
+
+2. **Chatbots and virtual counselors enabling stigma-free education and support:**  
+   AI-driven chatbots provide private, judgment-free spaces for users—especially young people and key populations—to learn about PrEP, manage side effects, and ask questions remotely. These tools support HIV self-management and reduce the burden on frontline health workers, enhancing telemedicine delivery. Such AI chatbots have been piloted in multiple LMIC settings as part of digital health innovations.
+
+3. **Telemedicine platforms in Nigeria and Kenya for PrEP initiation and management:**  
+   Clients in these countries can start and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options enabled by telemedicine. AI is also used to forecast medication demand to reduce stockouts and ensure stable supply at decentralized locations. This integration of AI with telemedicine improves access, adherence, and sustainability of HIV prevention services in resource-constrained settings.
+
+These examples illustrate how AI combined with telemedicine is making HIV prevention more accessible, personalized, and efficient, particularly in African countries facing healthcare workforce shortages and resource limitations."
+5,LOOSE,9.614551754006062,"Based on the text from the report on AI to enhance HIV prevention, here are 3 examples of innovative AI approaches related to telemedicine and their usage locations:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda)**  
+   - These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition.  
+   - This enables healthcare providers to offer PrEP (pre-exposure prophylaxis) more strategically and tailored to individual risk.  
+   - Reference: Balzer et al. (2020) study on machine learning in rural Kenya and Uganda.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support (Various LMICs)**  
+   - AI-driven chatbots provide private, judgment-free virtual spaces where users, especially young people and key populations, can learn about PrEP, manage side effects, and ask questions.  
+   - These tools support HIV self-management and adherence through virtual check-ins and personalized digital reminders.  
+   - Reference: Ma et al. (2025) study on the first AI-based chatbot to promote HIV self-management.
+
+3. **Telemedicine Platforms for PrEP Delivery (Nigeria and Kenya)**  
+   - Telemedicine enables clients to initiate and manage PrEP remotely via video consultations, app-based self-screening, and pharmacy pick-up options, eliminating the need for frequent in-person visits.  
+   - AI is also used to forecast medication demand, reducing stockouts and ensuring a stable supply at decentralized locations.  
+   - These innovations make PrEP delivery smarter, more inclusive, and sustainable in resource-constrained settings.
+
+Additional related innovations include AI as a ""digital coworker"" supporting overstretched health workers by automating triage, documentation, and training, as well as AI-driven demand generation using chatbots, SMS campaigns, and social listening tools to improve awareness and uptake of HIV prevention services.
+
+These examples underscore how AI combined with telemedicine is enhancing HIV prevention services particularly in low- and middle-income countries (LMICs) such as Kenya, Uganda, and Nigeria."
+6,LOOSE,7.645466847090665,"Based on the provided report, here are several examples of innovative AI approaches related to telemedicine in HIV prevention and where they are being used:
+
+1. **AI-Powered Risk Prediction Models in Clinics**  
+   - **Description:** AI-driven models integrated into clinical settings analyze electronic medical records (EMR), behavioral data, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition. This enables providers to offer Pre-exposure Prophylaxis (PrEP) more strategically and targeted.  
+   - **Where Used:** Clinics in low- and middle-income countries (LMICs), including Kenya and Uganda, are applying these models to improve risk stratification and HIV prevention efforts.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support**  
+   - **Description:** AI-enabled chatbots and virtual counselors provide private, judgment-free digital spaces where users—especially young people and key populations—can learn about PrEP, manage side effects, and ask questions. These tools support HIV self-management and adherence through virtual check-ins and personalized reminders.  
+   - **Where Used:** These AI chatbot tools are being piloted and implemented in various LMIC settings, as part of efforts to increase HIV prevention education and support while reducing stigma.
+
+3. **Telemedicine Platforms for PrEP Access Combining AI Tools**  
+   - **Description:** Telemedicine innovations use video consultations, app-based self-screening, and pharmacy pick-up options to eliminate the need for frequent in-person visits for PrEP initiation and management. AI further enhances these platforms by forecasting medication demand to ensure steady PrEP supply and by optimizing client intake and follow-up processes.  
+   - **Where Used:** Countries such as Nigeria and Kenya are employing telemedicine coupled with AI to expand PrEP access, making delivery smarter and more inclusive even in resource-constrained contexts.
+
+4. **AI as a “Digital Coworker” Supporting Overstretched Health Staff**  
+   - **Description:** AI tools assist frontline health workers by automating routine tasks such as triage, documentation, training, and supervision. This augmentation extends the reach and effectiveness of existing health teams, especially in rural or under-resourced areas, allowing human workers to focus on complex care aspects.  
+   - **Where Used:** Various LMIC settings are exploring AI to support community health workers and clinicians to maintain service coverage amid workforce shortages.
+
+These AI-driven telemedicine approaches are helping to close gaps in access, workforce capacity, client engagement, and supply chain management, making HIV prevention programs more efficient, personalized, and resilient across multiple African countries and other LMICs."
+7,LOOSE,9.359190556492415,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine in HIV prevention and care, along with their usage contexts:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda)**  
+   - These models integrate electronic medical record (EMR) data, behavioral patterns, and community-level risk factors, often analyzed in real time, to identify individuals most vulnerable to HIV acquisition.  
+   - By enabling more precise risk stratification, they help providers offer pre-exposure prophylaxis (PrEP) more strategically.  
+   - This approach is notably applied in rural Kenya and Uganda for targeted HIV prevention.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Support (Used in LMICs)**  
+   - AI-enabled chatbots provide confidential, judgment-free spaces where users—especially young people and key populations—can learn about PrEP, manage side effects, and ask questions remotely.  
+   - These tools support HIV self-management through virtual check-ins, personalized digital reminders, and navigation assistance to nearby services via geo-location.  
+   - This innovation reduces the burden on frontline workers and enhances accessibility in low- and middle-income countries (LMICs).
+
+3. **Telemedicine Platforms Enabling Remote PrEP Access (Nigeria and Kenya)**  
+   - Telemedicine eliminates the need for frequent in-person visits by offering video consultations, app-based self-screening, and pharmacy pick-up options for PrEP initiation and management.  
+   - AI is also employed to forecast medication demand, reducing stockouts and ensuring a stable supply of PrEP at decentralized locations.  
+   - This approach makes HIV prevention more inclusive and sustainable, even in resource-constrained settings.
+
+Additionally, AI is being used as a “digital coworker” in several settings to assist overstretched health staff by automating routine tasks such as triage, documentation, training, and supervision, thereby extending the reach and effectiveness of health teams, especially in rural or under-resourced areas.
+
+These examples demonstrate how AI and telemedicine are innovatively combined to enhance HIV prevention and care delivery in various low-resource and high-need contexts."
+8,LOOSE,10.930576070901033,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine and their use locations:
+
+1. **AI-powered Risk Prediction Models Integrated into Clinics (Kenya and Uganda)**  
+   - These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real-time to identify individuals most vulnerable to HIV acquisition. This helps providers offer PrEP (pre-exposure prophylaxis) more strategically.  
+   - Reference: Use of machine learning for high-risk identification in rural Kenya and Uganda (Balzer et al., 2020).
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support (LMICs including Kenya and Nigeria)**  
+   - AI-enabled chatbots provide private, judgment-free spaces for users to learn about PrEP, manage side effects, and ask questions, which is especially critical for young people and key populations.  
+   - These tools support HIV self-management through virtual check-ins and personalized digital reminders, reducing the burden on frontline workers and making telemedicine more accessible.  
+   - Reference: Ma et al., 2025; Implementation of AI chatbots for HIV self-management.
+
+3. **Telemedicine Platforms for PrEP Access (Nigeria and Kenya)**  
+   - Clients can start and manage PrEP via video consultations, app-based self-screening, and pharmacy pick-up options, eliminating the need for frequent in-person visits.  
+   - AI is also used to forecast medication demand, reducing stockouts and ensuring stable PrEP supplies at decentralized locations.  
+   - Reference: Implementation of telemedicine combined with AI in Nigeria and Kenya to enhance PrEP delivery.
+
+These approaches illustrate how AI, when combined with telemedicine, is transforming HIV prevention services—making them more targeted, accessible, and sustainable—especially in resource-constrained settings in sub-Saharan Africa."
+9,LOOSE,9.361702127659576,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine and where they are being used:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda)**  
+   - These models analyze electronic medical record (EMR) data, behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition.  
+   - This helps healthcare providers offer pre-exposure prophylaxis (PrEP) more strategically and tailor services to those at highest risk.  
+   - Reference: Balzer et al., 2020; described as being integrated into clinics in rural Kenya and Uganda.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support (Nigeria and Kenya)**  
+   - AI-driven chatbots and virtual counselors provide private, judgment-free spaces for users, especially young people and key populations, to learn about PrEP, manage side effects, and ask questions.  
+   - These tools support HIV self-management through virtual check-ins, personalized digital reminders, and navigation assistance using geo-location, reducing the burden on frontline workers.  
+   - Telemedicine platforms enable clients to start and manage PrEP remotely via video consultations, app-based self-screening, and pharmacy pick-ups.  
+   - Reference: Implemented in Nigeria and Kenya.
+
+3. **AI as a “Digital Coworker” Supporting Overstretched Health Workers (Various LMIC Settings)**  
+   - AI tools automate routine tasks such as triage, documentation, initial risk assessments, adherence reminders, and appointment scheduling.  
+   - This allows health workers to focus on more complex care tasks, extending the reach and effectiveness of existing teams, particularly in rural or under-resourced areas.  
+   - Such AI applications are mentioned as being piloted and used across low- and middle-income countries (LMICs), supported by major global health initiatives.
+
+These examples demonstrate how AI integrated with telemedicine and digital health platforms is enhancing HIV prevention and care by improving risk stratification, expanding access to services, supporting patient self-management, and augmenting health workforce capacity in resource-constrained settings."
+10,LOOSE,10.97804391217565,"Based on the provided report on AI enhancing HIV prevention and telemedicine, here are 3 examples of innovative AI approaches related to telemedicine and where they are being used:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda)**  
+   - AI models integrated into clinics analyze electronic medical records (EMR), behavioral patterns, and community risk factors in real time to identify individuals most vulnerable to HIV acquisition.  
+   - This enables healthcare providers to offer pre-exposure prophylaxis (PrEP) more strategically and tailored to individual risk.  
+   - Reference: Balzer et al. (2020) study in rural Kenya and Uganda.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support (LMICs, including Nigeria and Kenya)**  
+   - AI-driven chatbots and virtual counselors provide private, judgment-free spaces for users to learn about PrEP, manage side effects, and ask questions.  
+   - These tools are particularly useful for young people and key populations facing stigma, enhancing self-management of HIV prevention.  
+   - Example includes the first AI-based chatbot promoting HIV self-management studied in 2025.
+
+3. **Telemedicine Platforms for PrEP Delivery (Nigeria and Kenya)**  
+   - Telemedicine enables clients to start and manage PrEP through video consultations and app-based self-screening, coupled with pharmacy pick-up options.  
+   - AI is also used to forecast medication demand in these decentralized locations, reducing stockouts and ensuring a stable supply.  
+   - This approach makes PrEP delivery more accessible and sustainable in resource-constrained settings.
+
+These examples demonstrate AI's role in transforming telemedicine by improving risk stratification, enhancing client engagement through digital tools, and optimizing supply chains for HIV prevention services in low- and middle-income countries."
+11,LOOSE,10.232983097304704,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine and their use contexts:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda):**  
+   In low- and middle-income countries (LMICs) such as Kenya and Uganda, AI-driven machine learning models integrated into clinics analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time. These models identify individuals most vulnerable to HIV acquisition, enabling healthcare providers to offer pre-exposure prophylaxis (PrEP) more strategically. This approach improves risk stratification beyond traditional tools and makes prevention efforts more targeted and effective.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Support (Various LMICs):**  
+   AI-enabled chatbots and virtual counselors are deployed to provide private, judgment-free education and support about PrEP, helping users manage side effects, adherence, and access to services. These tools are especially valuable for young people and key populations who face stigma and barriers in traditional healthcare settings. For example, an AI-based chatbot was studied for promoting HIV self-management, showing usability in supporting adherence and self-care remotely.
+
+3. **Telemedicine Platforms with AI in Nigeria and Kenya:**  
+   Telemedicine has expanded PrEP access by removing the need for frequent in-person clinic visits. In countries like Nigeria and Kenya, clients can initiate and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options. AI is also employed to forecast medication demand, reducing stockouts and ensuring stable PrEP supplies at decentralized locations. This integration of AI and telemedicine enables more inclusive, efficient, and sustainable HIV prevention services in resource-constrained settings.
+
+These examples illustrate how AI complements telemedicine to enhance HIV prevention by improving access, personalization, and program efficiency in diverse global health contexts."
+12,LOOSE,10.826771653543311,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine and their usage in HIV prevention programs, particularly in low- and middle-income countries (LMICs):
+
+1. **AI-Powered Risk Prediction Models in Clinics:**
+   - These models analyze data from electronic medical records (EMR), behavioral patterns, and community-level risk factors, often in real time, to identify individuals most vulnerable to HIV acquisition.
+   - This allows healthcare providers to offer Pre-Exposure Prophylaxis (PrEP) more strategically.
+   - Usage: Integrated into clinics in LMICs to improve targeted HIV prevention.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Support:**
+   - AI-enabled chatbots provide education, support, and personalized digital reminders about PrEP adherence, side effect management, and locating nearby services through geo-location.
+   - They offer private, judgment-free spaces for users, which is especially critical for young people and key populations facing stigma.
+   - Usage: Deployed in settings like Kenya and Nigeria to enhance HIV self-management and client engagement remotely.
+
+3. **Telemedicine Platforms Supported by AI for PrEP Access:**
+   - Telemedicine eliminates the need for frequent in-person visits by enabling PrEP initiation and management through video consultations, app-based self-screening, and pharmacy pick-up options.
+   - AI is also used to forecast medication demand, reducing stockouts and ensuring stable supplies at decentralized locations.
+   - Usage: Implemented in countries including Nigeria and Kenya, making PrEP delivery more accessible, efficient, and sustainable in resource-constrained environments.
+
+These AI-driven telemedicine innovations collectively improve service delivery, expand reach, and offer personalized, stigma-free, and efficient HIV prevention care in diverse and often under-resourced settings."
+13,LOOSE,10.229938995776633,"Based on the provided report on AI to enhance HIV prevention, here are 3 examples of innovative AI approaches related to telemedicine and their usage contexts:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda)**  
+   - These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition.  
+   - This enables healthcare providers to offer PrEP (pre-exposure prophylaxis) more strategically and target prevention services more precisely.  
+   - Reference: Balzer et al., 2020; implemented in clinics in rural Kenya and Uganda.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support (LMICs including Nigeria and Kenya)**  
+   - AI-driven chatbots provide private, judgment-free spaces for users to learn about PrEP, manage side effects, and ask questions, which is especially valuable for young people and key populations facing stigma.  
+   - These tools support HIV self-management, adherence reminders, and virtual check-ins, empowering individuals while reducing frontline worker burden.  
+   - Reference: Ma et al., 2025; being piloted and implemented in low- and middle-income countries (LMICs).
+
+3. **Telemedicine for PrEP Delivery via Video Consultations and App-Based Self-Screening (Nigeria and Kenya)**  
+   - Telemedicine platforms enable clients to start and manage PrEP without frequent in-person visits, increasing accessibility.  
+   - AI is also used to forecast medication demand, reducing stockouts and ensuring stable PrEP supply at decentralized locations such as pharmacies.  
+   - Reference: Implemented in Nigeria and Kenya, combining telemedicine and AI for smarter, more inclusive PrEP delivery.
+
+These examples illustrate how AI integrated with telemedicine platforms is enhancing HIV prevention by improving risk stratification, supporting self-management, expanding access, and optimizing supply chains in resource-constrained settings."
+14,LOOSE,10.7421875,"Based on the provided report ""Artificial intelligence to enhance HIV prevention in age of disruptions,"" here are 3 examples of innovative AI approaches related to telemedicine and where they are being used:
+
+1. **AI-powered Risk Prediction Models in Clinics (Kenya and Uganda):**  
+   AI and machine learning models are integrated into clinics in rural Kenya and Uganda to identify individuals most vulnerable to HIV acquisition. These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time. This enables healthcare providers to offer pre-exposure prophylaxis (PrEP) more strategically and tailor prevention services to high-risk individuals.
+
+2. **Chatbots and Virtual Counselors for Stigma-free Education and Support (LMICs including Kenya and Nigeria):**  
+   AI-driven chatbots and virtual counselors provide private, judgment-free spaces for users—especially young people and key populations—to learn about PrEP, manage side effects, and ask questions. These tools facilitate HIV self-management remotely, reducing stigma and enabling access to information without the need for in-person visits.
+
+3. **Telemedicine-enabled PrEP Access via Video Consultations and App-based Self-screening (Nigeria and Kenya):**  
+   Telemedicine platforms in Nigeria and Kenya allow clients to start and manage PrEP through video consultations and app-based self-screening tools. Combined with AI forecasting to predict medication demand, these innovations reduce frequent clinic visits, decrease stockouts, and ensure a stable supply of PrEP at decentralized community pharmacies and delivery points.
+
+These AI applications, especially when integrated with telemedicine, are making HIV prevention services smarter, more accessible, and sustainable in low- and middle-income countries (LMICs), helping overcome barriers such as stigma, workforce shortages, and geographic constraints."
+15,LOOSE,10.156971375807943,"Based on the provided report on artificial intelligence (AI) enhancing HIV prevention, here are 3 examples of innovative AI approaches related to telemedicine and their use settings:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda):**  
+   AI and machine learning models are integrated into clinics in low- and middle-income countries (LMICs) such as Kenya and Uganda to analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time. These models identify individuals most vulnerable to HIV acquisition, enabling healthcare providers to offer pre-exposure prophylaxis (PrEP) more strategically. This improves risk stratification beyond traditional tools, addressing a long-standing challenge in HIV prevention.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Support (Various LMICs):**  
+   AI-driven chatbots and virtual counselors provide confidential, non-judgmental spaces for people—especially young people and key populations—to receive education about PrEP, manage side effects, and ask questions remotely. These tools facilitate HIV self-management and adherence support through personalized digital reminders and virtual check-ins, reducing the burden on frontline workers and increasing accessibility.
+
+3. **Telemedicine for PrEP Access via Video Consultations and App-Based Self-Screening (Nigeria and Kenya):**  
+   Telemedicine platforms in countries like Nigeria and Kenya enable clients to initiate and manage PrEP remotely. Features include video consultations with providers, app-based self-screening tools, and pharmacy pick-up options. AI further supports these services by forecasting medication demand to prevent stockouts and ensure steady PrEP supply at decentralized locations, making delivery smarter and more sustainable in resource-constrained settings.
+
+These examples demonstrate how AI and telemedicine are synergistically expanding HIV prevention reach, personalizing care, and alleviating workforce constraints in diverse global health contexts."
+16,LOOSE,9.519650655021838,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine in HIV prevention, along with where they are being used:
+
+1. **AI-powered risk prediction models integrated into clinics in low- and middle-income countries (LMICs):**  
+   These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition. This helps healthcare providers offer PrEP more strategically. This approach is being implemented in clinics in LMICs, with specific examples including Kenya and Uganda.
+
+2. **Chatbots and virtual counselors for stigma-free education and support:**  
+   AI-enabled chatbots and virtual counselors provide private, judgment-free spaces for users—especially young people and key populations—to learn about PrEP, manage side effects, and ask questions. This telemedicine innovation supports HIV self-management remotely and helps reduce the burden on frontline workers. Chatbots have been studied and piloted in various settings, including in Kenya and Nigeria.
+
+3. **Telemedicine for PrEP initiation and management via video consultations and app-based self-screening:**  
+   In countries such as Nigeria and Kenya, telemedicine platforms allow clients to start and manage PrEP without frequent in-person visits. These platforms use AI to forecast medication demand, reducing stockouts and ensuring stable PrEP supply at decentralized locations like pharmacies. This integration of AI and telemedicine expands access in resource-constrained settings.
+
+Additional notes:  
+- AI is also used as a ""digital coworker"" to support overstretched health staff by automating triage, documentation, and training, especially in rural or under-resourced areas.  
+- AI tools optimize demand generation through targeted outreach campaigns using chatbots, SMS, and social listening, enhancing engagement with younger and traditionally underserved populations.
+
+These examples illustrate how AI-driven telemedicine innovations are already transforming HIV prevention services in LMICs, notably in African countries like Kenya and Nigeria."
+17,LOOSE,9.725906277630415,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine and their use in HIV prevention programs, especially in low- and middle-income countries (LMICs):
+
+1. **AI-Powered Risk Prediction Models Integrated in Clinics:**
+   - These models analyze electronic medical records (EMR), behavioral patterns, and community-level risk factors in real time to identify individuals most vulnerable to HIV acquisition.
+   - This helps healthcare providers offer pre-exposure prophylaxis (PrEP) more strategically and tailored to individual risk.
+   - Use case: Clinics in LMICs are integrating these AI models to improve targeted PrEP delivery.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Education and Support:**
+   - AI-driven chatbots provide private, judgment-free spaces for users—especially young people and key populations—to learn about PrEP, manage side effects, and ask questions remotely.
+   - These tools support HIV self-management via virtual check-ins and personalized digital reminders.
+   - Use case: Deployed in settings where stigma limits access to traditional care, enabling remote counseling and adherence support through telemedicine platforms.
+
+3. **Telemedicine Platforms for PrEP Access in Nigeria and Kenya:**
+   - Clients can start and manage PrEP through video consultations, app-based self-screening tools, and pharmacy pick-up options, eliminating the need for frequent in-person visits.
+   - AI is also used to forecast medication demand, reducing stockouts and ensuring stable PrEP supply at decentralized locations.
+   - Use case: Implemented in Nigeria and Kenya to make PrEP delivery smarter, more inclusive, and sustainable via telemedicine enhanced with AI.
+
+Additionally, AI acts as a ""digital coworker"" by automating routine tasks like triage, documentation, and appointment scheduling, thus supporting overstretched health workers and extending service reach in rural or resource-limited areas.
+
+These examples highlight how AI integrated with telemedicine is transforming HIV prevention service delivery, improving access, personalization, and efficiency in LMICs."
+18,LOOSE,9.523809523809524,"Based on the provided report on AI in HIV prevention and telemedicine, here are 3 examples of innovative AI approaches related to telemedicine and where they are being used:
+
+1. **AI-powered risk prediction models integrated into clinics (Kenya and Uganda)**  
+   - These models use electronic medical record (EMR) data, behavioral patterns, and community-level risk factors to identify individuals most vulnerable to HIV acquisition.  
+   - This enables healthcare providers to offer PrEP (pre-exposure prophylaxis) more strategically and tailor services to those at highest risk.  
+   - Reference: Balzer et al., 2020 study on machine learning to identify high-risk persons in rural Kenya and Uganda.
+
+2. **Chatbots and virtual counselors for stigma-free education and support (LMICs including Kenya and Nigeria)**  
+   - AI-enabled chatbots provide private, judgment-free spaces for users to learn about PrEP, manage side effects, and ask questions remotely.  
+   - These tools empower clients, facilitate HIV self-management, and reduce the burden on frontline workers.  
+   - They are particularly beneficial for young people and key populations who may face stigma in traditional healthcare settings.
+
+3. **Telemedicine platforms for PrEP initiation and management (Nigeria and Kenya)**  
+   - Clients can start and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options.  
+   - AI is also used to forecast medication demand in these decentralized settings, helping to reduce stockouts and maintain stable supplies.  
+   - This approach extends access to PrEP without requiring frequent in-person clinic visits, making delivery smarter and more inclusive even in resource-constrained settings.
+
+Additional note: AI is also being deployed as a ""digital coworker"" in several settings to support overburdened health workers by automating triage, documentation, and training, thus extending the reach of HIV prevention services, especially in rural or under-resourced areas.
+
+These examples illustrate how AI and telemedicine innovations are actively transforming HIV prevention services in low- and middle-income countries, particularly across Africa."
+19,LOOSE,10.946745562130179,"Based on the provided text, here are 3 examples of innovative AI approaches related to telemedicine in HIV prevention and their use cases:
+
+1. **AI-Powered Risk Prediction Models in Clinics (Kenya and Uganda):**  
+   In low- and middle-income countries (LMICs) such as Kenya and Uganda, AI-driven risk prediction models are integrated into clinics to identify individuals most vulnerable to HIV acquisition. These models analyze electronic medical record (EMR) data, behavioral patterns, and community-level risk factors in real time, enabling providers to offer pre-exposure prophylaxis (PrEP) more strategically and effectively.
+
+2. **Chatbots and Virtual Counselors for Stigma-Free Support:**  
+   AI-powered chatbots and virtual counselors provide confidential, stigma-free education and support for HIV prevention. They offer users private, judgment-free spaces to learn about PrEP, manage side effects, and ask questions, which is particularly critical for young people and key populations. For example, the first AI-based chatbot promoting HIV self-management has been studied for usability and effectiveness, empowering clients and reducing burdens on frontline workers.
+
+3. **Telemedicine Platforms for PrEP Delivery in Nigeria and Kenya:**  
+   Telemedicine has expanded PrEP access by eliminating the need for frequent in-person visits. In countries like Nigeria and Kenya, clients can initiate and manage PrEP through video consultations, app-based self-screening, and pharmacy pick-up options. AI is also used to forecast medication demand to reduce stockouts and ensure a stable supply of PrEP at decentralized locations, making delivery smarter, more inclusive, and sustainable.
+
+These examples demonstrate how AI integrated with telemedicine is enhancing HIV prevention by improving risk stratification, enabling personalized support, and expanding access to care in resource-constrained settings."
+0,-,6.063858331097394,"Based on the document ""Online pharmacy PrEP and PEP: Technical considerations and learnings from Kenya,"" the following are examples of innovative AI approaches related to telemedicine in the context of HIV prevention and their usage:
+
+1. **AI-Facilitated Digital Photo Capture and Result Interpretation for HIV Self-Tests (HIVST):**  
+   - **Description:** Audere, a nonprofit company working in digital health, developed an AI system that assists clients in capturing high-quality photos of their HIV self-test results and aids clinical officers (COs) in remotely interpreting these results. The AI evaluates photo quality, prompts clients to retake unclear images, crops and enhances images for easier interpretation, and identifies test and control lines to support CO interpretation.  
+   - **Use in Kenya:** This AI system was integrated into the ePrEP/ePEP online pharmacy model implemented in Nairobi and Mombasa from 2022 to 2024. Clients upload photos of their HIVST results via the digital health company's platform. The AI system helps ensure quality control and accuracy in HIVST result interpretation, enabling telehealth providers to prescribe PrEP or PEP remotely.  
+   - **Benefits:** Enhances quality assurance, supports telehealth providers in decision-making, allows supervisors to monitor provider accuracy, and improves client privacy by facilitating remote testing. The AI is tuned for high sensitivity to detect faint lines, reducing missed positive cases.  
+   - **References:** Pages 8-10, including Appendix 2 and the Executive Summary.
+
+2. **AI-Assisted Monitoring and Quality Control of HIV Test Interpretation by Clinical Officers:**  
+   - **Description:** The AI system flags discrepancies between its interpretation and that of clinical officers, prompting supervisors to review cases where interpretations differ. This serves as a continuous quality improvement tool to identify training needs and prevent misinterpretation.  
+   - **Use in Kenya:** Deployed in the MYDAWA digital health platform for ePrEP/ePEP service delivery, where clinical supervisors use AI alerts to audit HIVST result interpretations remotely.  
+   - **Benefits:** Enhances clinical supervision efficiency, maintains high standards of telehealth service quality, and supports provider performance monitoring.  
+   - **References:** Page 9.
+
+3. **Integration of AI in Telehealth Platforms to Support Remote HIV Testing and PrEP/PEP Delivery:**  
+   - **Description:** The AI system is embedded within an online pharmacy telehealth platform to facilitate remote HIV testing, counseling, and prescription of PrEP/PEP. It enables a one-step delivery model where clients receive testing kits and medication in a single delivery, with AI assisting in rapid and accurate interpretation of test results.  
+   - **Use in Kenya:** The model was piloted by MYDAWA in Nairobi and Mombasa, combining telehealth consultations, AI-assisted HIVST interpretation, and medicine delivery by pharmaceutical technologists.  
+   - **Benefits:** Reduces delays in PEP administration (median 39 hours from exposure to delivery), increases privacy and convenience for clients, and potentially improves uptake and adherence to HIV prevention methods.  
+   - **References:** Pages 3-5, 8-10, and Program Model section.
+
+These AI innovations are primarily being used in Kenya within the ePrEP/ePEP pilot program led by MYDAWA, Jhpiego, Audere, and research partners such as the University of Washington and Fred Hutchinson Cancer Center, aiming to expand access to HIV prevention services through telemedicine and online pharmacies."
+1,-,6.777609682299546,"Based on the document ""Online pharmacy PrEP and PEP: Technical considerations and learnings from Kenya,"" here are 3 examples of innovative AI approaches related to telemedicine and where they are being used:
+
+1. **AI-facilitated digital photo capture and interpretation for HIV self-tests (HIVST) and rapid diagnostic tests (RDTs)**  
+   - **Where used:** Kenya, in the ePrEP/ePEP pilot program implemented mainly by the digital health company MYDAWA with technical support from Audere and partners.  
+   - **Details:** Clients conduct HIV self-tests at home and upload photos of the test results through the online pharmacy platform. An AI system evaluates the photo quality and interprets test and control lines to assist clinical officers (COs) in remotely verifying HIVST results. The AI flags poor-quality photos prompting clients to retake them, and enhances images for easier interpretation. The system is tuned to be highly sensitive to faint lines to reduce missed positives, with COs having final decision authority. Discrepancies between AI and CO interpretation are flagged for supervisor review, enabling quality assurance. This AI support helps maintain high-quality test interpretation remotely and reduces the need for additional testing.  
+   - **Benefits:** Improves quality assurance of remote HIV test interpretation, supports clinical supervision, helps clients upload valid test photos, and potentially reduces delays in PrEP/PEP initiation.  
+
+2. **AI-assisted monitoring and supervision of telehealth providers**  
+   - **Where used:** Kenya, within the ePrEP/ePEP telehealth and online pharmacy model.  
+   - **Details:** The AI system flags discrepancies between its interpretations and those of clinical officers, enabling supervisors to focus on cases needing review rather than auditing every test. This targeted oversight supports provider performance monitoring and training needs identification.  
+   - **Benefits:** Enhances efficiency and effectiveness of provider quality monitoring in telehealth services related to HIV prevention.  
+
+3. **Integration of AI in telemedicine platforms to support decentralized HIV testing and PrEP/PEP delivery**  
+   - **Where used:** Kenya, within the MYDAWA online pharmacy and telehealth platform as part of the ePrEP/ePEP program.  
+   - **Details:** The AI system is integrated into the digital health company's telemedicine platform to enable remote HIV testing via client-uploaded photos and to assist clinical decision-making for prescribing PrEP or PEP. It contributes to a one-step delivery model where HIV testing and medication delivery occur in the same visit, improving convenience and reducing delays for clients.  
+   - **Benefits:** Facilitates remote HIV testing and telehealth consultations, supports privacy and convenience for clients, and enables faster initiation of HIV prevention medications.  
+
+In summary, the Kenya ePrEP/ePEP pilot program demonstrates innovative AI applications in telemedicine by combining AI-assisted HIV test interpretation with telehealth consultations and online pharmacy delivery, improving access, privacy, quality assurance, and timeliness of HIV prevention services."
+2,-,7.3436983129341655,"Based on the document ""Online pharmacy PrEP and PEP: Technical considerations and learnings from Kenya,"" several innovative AI approaches related to telemedicine in the context of HIV prevention via online pharmacies are highlighted:
+
+1. **AI-Facilitated Digital Photo Capture and Result Interpretation for HIV Self-Tests (HIVST):**  
+   - **Description:** The digital health company MYDAWA, in partnership with Audere, implemented an AI system that assists clients in capturing high-quality photos of their HIV self-test results. The AI evaluates photo quality, prompts clients to retake low-quality images (up to three times), and enhances the image for better interpretation. It identifies and analyzes test and control lines to support clinical officers (COs) in remotely interpreting the test results. When AI and CO interpretations disagree, cases are flagged for supervisory review.  
+   - **Benefits:** This AI integration enhances quality assurance in telehealth HIV testing, supports COs in accurate test interpretation, reduces the risk of false negatives, and facilitates supervisor oversight without requiring in-person testing. It also helps reduce the need for repeat tests due to poor image quality.  
+   - **Where Used:** This AI system was deployed in Kenya during the ePrEP/ePEP pilot from 2022 to 2024, integrated into the telehealth and online pharmacy platform operated by MYDAWA.
+
+2. **AI-Assisted Quality Control and Provider Performance Monitoring:**  
+   - **Description:** The AI system flags discrepancies between its interpretation and the CO’s reading of HIVST results, enabling supervisors to focus on cases needing closer review and identify COs who may require additional training. This targeted approach to quality assurance supports continuous improvement of telehealth providers' performance.  
+   - **Where Used:** As part of the ePrEP/ePEP service delivery model in Kenya’s online pharmacy pilot.
+
+3. **Potential Use of AI in Expanding Diagnostic Support:**  
+   - While not fully implemented in the pilot, the document mentions that AI can be trained to support a wide variety of HIV self-test products as they enter the market, thereby expanding telemedicine-supported HIV testing options. This AI adaptability can facilitate scale-up of telehealth services with diverse diagnostic products.  
+   - **Where Applicable:** Future expansions of Kenya’s ePrEP/ePEP online pharmacy model or similar telemedicine platforms in comparable settings.
+
+In summary, the innovative AI approaches in Kenya’s telemedicine-based HIV prevention model include AI-powered image quality assessment and interpretation of HIV self-tests to support remote diagnosis and prescription, quality assurance of telehealth providers through AI-flagged discrepancies, and the potential for AI to adapt to new diagnostic tools, all integrated within an online pharmacy and telehealth delivery system."
+3,-,6.89867570064675,"Based on the provided document about the ePrEP/ePEP telemedicine and online pharmacy pilot in Kenya, here are 3 examples of innovative AI approaches related to telemedicine:
+
+1. **AI-facilitated Digital Photo Capture and Result Interpretation System for HIV Self-Tests (HIVST):**  
+   - Developed by Audere, a nonprofit digital health company partnering in the Kenya pilot.  
+   - Clients self-administer HIV self-tests, then upload photos of the test results to the digital health platform.  
+   - The AI system evaluates photo quality and flags poor-quality images, prompting clients to retake photos as needed.  
+   - It assists clinical officers (COs) by analyzing test and control lines, providing a second opinion for interpreting results remotely.  
+   - This AI is tuned to be highly sensitive to faint lines, reducing the risk of missed positive cases, though initially producing some false positives that were later reduced through fine-tuning.  
+   - The system enables supervisors to monitor CO interpretations efficiently by flagging discrepancies between AI and CO results for review.  
+   - This approach enhances quality assurance (QA) in telehealth HIV testing and supports client privacy by enabling remote interpretation without requiring in-person testing.  
+
+2. **AI Integration Supporting Remote HIV Testing Quality Control and Interpretation:**  
+   - AI automatically crops and enhances images of the test windows to facilitate easier and more accurate interpretation by COs.  
+   - It helps reduce the need for repeat HIV self-tests by immediately identifying poor-quality photos.  
+   - The AI system supports continuous training by identifying COs needing additional supervision based on discrepancies in interpretation.  
+   - AI integration aligns with WHO guidance emphasizing AI’s role in assisting human decision-making, allowing COs to override AI assessments when necessary.  
+
+3. **AI-Assisted Monitoring and Supervision of Telehealth Providers in HIV Testing:**  
+   - AI flags discrepancies between its interpretation and that of COs, enabling targeted supervisory review rather than requiring supervisors to review all tests.  
+   - This focused monitoring improves efficiency in quality assurance processes within the telehealth model.  
+   - AI support helps maintain high standards of care and accuracy in HIV test interpretation in a decentralized, telehealth-based PrEP/PEP service model.  
+
+**Where these AI approaches are being used:**  
+- These AI innovations are implemented within the ePrEP/ePEP pilot conducted in urban Kenya (Nairobi and Mombasa) from 2022 to 2024.  
+- The digital health company MYDAWA integrated the AI system developed by Audere into its telehealth and online pharmacy platform to deliver PrEP and PEP services virtually, including HIV self-testing and rapid diagnostic testing.  
+
+In summary, the Kenya ePrEP/ePEP pilot leveraged AI to enhance remote HIV self-test result interpretation, improve quality control, and support telehealth providers in delivering confidential and efficient HIV prevention services through an online pharmacy and telemedicine model."
+4,-,7.461692205196535,"Based on the supplied text about the implementation of online pharmacy PrEP and PEP delivery in Kenya, here are examples of innovative AI approaches related to telemedicine in HIV prevention:
+
+1. **AI-Facilitated Digital Photo Capture and HIV Self-Test Result Interpretation**  
+   - *Usage*: Developed and implemented by Audere, a nonprofit digital health company, this system assists clinical officers (COs) in remotely verifying client HIV self-test (HIVST) results.  
+   - *How it works*:  
+     - Clients upload photos of their HIV test results via the digital health company’s platform.  
+     - The AI system evaluates the photo quality and prompts clients to retake photos if the image is unclear.  
+     - It analyzes test and control lines to assist COs in interpreting results, especially detecting faint lines sensitively to minimize false negatives.  
+     - In cases where AI and CO interpretations differ, the CO’s decision prevails, and discrepancies are flagged for supervisory review.  
+   - *Benefits*: Enhances quality assurance for HIVST interpretation, reduces potential misinterpretation by providers, supports supervisory monitoring, and may reduce the need for repeat testing.  
+   - *Location*: Kenya, integrated into the ePrEP/ePEP online pharmacy platform (MYDAWA).  
+   - *References*: Pages 8–10 of the document; see also the Executive Summary and Program Model sections.  
+
+2. **AI to Improve Client Photo Quality and HIVST Usability**  
+   - *Usage*: The AI system provides usability-tested visual guidance to clients on how to take good photos of their HIV self-tests. It immediately flags poor-quality images (about 8% of cases) and prompts clients to retake photos, improving diagnostic reliability.  
+   - *Benefits*: Ensures accurate remote HIV testing results critical for telehealth-based PrEP/PEP prescription.  
+   - *Location*: Kenya, in the ePrEP/ePEP telehealth model.  
+   - *References*: Pages 8–9.  
+
+3. **AI-Enabled Supervision and Quality Monitoring of Telehealth Providers**  
+   - *Usage*: The AI system flags discrepancies between CO and AI interpretations, allowing supervisors to focus reviews on potential errors rather than reviewing every test. This targeted supervision helps identify COs needing further training and assures quality in remote telehealth services.  
+   - *Benefits*: Efficient quality improvement and provider performance monitoring in telemedicine HIV prevention delivery.  
+   - *Location*: Kenya, ePrEP/ePEP pilot.  
+   - *References*: Page 9.  
+
+These AI innovations in telemedicine-based HIV prevention have been piloted and studied in urban Kenya through the collaboration of MYDAWA, Audere, Jhpiego, and research partners under the ePrEP/ePEP pilot program from 2022 to 2024. The integration of AI enhances the feasibility, quality, and acceptability of remote PrEP and PEP delivery via online pharmacies."
