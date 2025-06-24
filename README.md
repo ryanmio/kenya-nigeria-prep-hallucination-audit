@@ -1,6 +1,6 @@
 # AI Hallucination Audit: Kenya & Nigeria PrEP Services
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Paper](https://img.shields.io/badge/Lancet%20Comment-View%20Paper-blue)](https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(25)00158-4/abstract) [![Journal](https://img.shields.io/badge/The%20Lancet%20HIV-Journal-red)](https://www.thelancet.com/journals/lanhiv/home)
 
 This repository contains a reproducible experiment demonstrating AI hallucination in HIV prevention research summaries. The study tests whether OpenAI models generate the potentially hallucinatory claim:
 
