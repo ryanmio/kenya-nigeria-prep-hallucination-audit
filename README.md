@@ -10,7 +10,7 @@ when asked to summarize the Audere white paper *"Leveraging AI to Enhance HIV Pr
 
 ## 🔍 Background
 
-This hallucination was discovered in a published Lancet Comment. The cited source (Audere white paper) mentions Kenya and Nigeria in separate contexts but does not explicitly state that AI powers telemedicine services in Nigeria. This experiment demonstrates how AI models can conflate separate pieces of information to create plausible but inaccurate claims.
+This hallucination was discovered in a published Lancet *Comment* that **cites the PATH *ePrEP/ePEP Technical Considerations Guide***—yet contains a sentence that appears to come from the marketing-focused *Audere* white paper, which is **not** cited.  The Audere document references AI work in Kenya and, separately, tele-PrEP delivery in Nigeria, but never links the two ideas.  Our experiment shows that when large language models ingest the Audere text they frequently fuse those facts into the more dramatic Kenya + Nigeria + AI claim found in the Lancet article, whereas the PATH guide never triggers that hallucination.  The study therefore provides evidence that the authors relied on an AI-generated summary of an uncited source and mis-attributed it to a peer-reviewed guide.
 
 ## 📊 Key Findings
 
