@@ -14,11 +14,12 @@ This hallucination was discovered in a published Lancet Comment. The cited sourc
 
 ## 📊 Key Findings
 
-Our experiments across three OpenAI models (GPT-4o, GPT-4.1-mini, o3) and four prompt variants show consistent hallucination patterns:
+1. **Systematic conflation of Kenya & Nigeria.**  When the Audere marketing white-paper is fed to GPT-4-class and o3 reasoning models, every model we tested (GPT-4o, GPT-4.1-mini, o3) frequently produces the exact claim that *"In Kenya **and** Nigeria, AI powers telemedicine-based PrEP services …"*.  
+2. **No hallucination from the cited source.**  Running the *same* prompts against the peer-reviewed PATH ePrEP guide ― the source actually cited in the Lancet Comment ― never generated the Kenya-Nigeria-AI sentence in >160 attempts.  
+3. **Evidence of source mis-attribution.**  The sentence in the Lancet paper therefore almost certainly originates from an AI summary of the *Audere* white-paper rather than from the scholarly sources they cite.  This analysis provides clear evidence of "citation laundering".
+4. **Ambiguity drives hallucination.**  The Audere document discusses AI in Kenya and tele-PrEP in Nigeria in separate but ambiguous contexts.  LLMs routinely fuse those ideas into a single, more concise claim.
 
-- **GPT-4.1-mini**: 65.4% - 80.8% hallucination rate across prompts
-- **GPT-4o**: 31.2% - 68.8% hallucination rate across prompts  
-- **o3**: 50.0% - 100.0% hallucination rate (limited sample size)
+*Detailed per-model hallucination rates are included in the statistics files but are secondary to the source-misattribution finding.*
 
 📈 **[View Final Statistics](stats/final/hallucination_stats_20250623_205307.csv)**
 
@@ -143,24 +144,3 @@ All experiments are fully reproducible with:
 - ✅ Timestamped outputs
 - ✅ Model versions specified
 - ✅ Dependencies pinned in requirements.txt
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions welcome! Please read our contributing guidelines and submit pull requests for any improvements.
-
-## 📞 Contact
-
-For questions about this research or to report issues, please open a GitHub issue.
-
----
-
-**Citation**: If you use this work in your research, please cite this repository and the associated findings. 
-
-- **Final Results**: `results/final/results_*_20250623_*.csv`
-- **Statistical Summary**: `stats/final/hallucination_stats_20250623_205307.csv`
-- **Source Material**: `source_materials/audere-whitepaper.md`
-- **Detailed Report**: `docs/hallucination_report.md` 
