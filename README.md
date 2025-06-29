@@ -17,7 +17,7 @@ Both sentences cite peer-reviewed academic papers that do not contain these clai
 
 ### Why this matters
 
-In a letter to *The Lancet HIV* editors (18 Jun 2025) we documented that the Comment's crucial sentence is unsupported by its own references: the cited PATH guide is Kenya-only and mentions no AI in Nigeria, while the BMC stakeholder report contains no AI whatsoever.  Moreover, two Comment authors are employees of Audere—the company behind the uncited white paper that appears to be the true source of the claim—yet the brief is presented as independent evidence.  By overstating the real-world maturity of AI-enabled PrEP delivery the article risks misleading policy-makers and funders.  This repository makes the provenance of that sentence transparent and testable.
+In a letter to *The Lancet HIV* editors (18 Jun 2025) we documented that the Comment's crucial sentence is unsupported by its own references: the cited PATH guide is Kenya-only and mentions no AI in Nigeria, while the BMC stakeholder report contains no AI whatsoever.  Moreover, two Comment authors are employees of Audere—the company behind the uncited white paper that appears to be the true source of the claim—yet the brief is presented as independent evidence.  We worry that overstating the real-world maturity of AI-enabled PrEP delivery could mislead policy-makers and funders.  This repository therefore aims to make the provenance of that sentence transparent and testable.
 
 ## Experiment 1: Kenya + Nigeria Tele-PrEP Claim
 
@@ -28,7 +28,7 @@ The sentence citing the PATH ePrEP guide actually originates from AI summarizati
 
 1. **Systematic conflation of Kenya & Nigeria.**  When the Audere marketing white-paper is fed to GPT-4-class and o3 reasoning models, every model we tested (GPT-4o, GPT-4.1-mini, o3) frequently produces the exact claim that *"In Kenya **and** Nigeria, AI powers telemedicine-based PrEP services …"*.  
 2. **No hallucination from the cited source.**  Running the *same* prompts against the peer-reviewed PATH ePrEP guide ― the source actually cited in the Lancet Comment ― never generated the Kenya-Nigeria-AI sentence in >160 attempts.  
-3. **Evidence of source mis-attribution.**  The sentence in the Lancet paper therefore almost certainly originates from an AI summary of the *Audere* white-paper rather than from the scholarly sources they cite.  This analysis provides clear evidence of "citation laundering".
+3. **Evidence of source mis-attribution.**  The patterns we observed suggest the sentence in the Lancet paper may have originated from an AI summary of the *Audere* white paper rather than from the scholarly sources it cites.  This analysis provides evidence consistent with "citation laundering".
 4. **Ambiguity drives hallucination.**  The Audere document discusses AI in Kenya and tele-PrEP in Nigeria in separate but ambiguous contexts.  LLMs routinely fuse those ideas into a single, more concise claim.
 
 ### Terminology note  
@@ -138,4 +138,4 @@ All experiments are fully reproducible with:
 - Model versions specified
 - Dependencies pinned in requirements.txt
 
-Both experiments provide empirical evidence that disputed sentences in the published Comment originated from the Audere sponsor document but were incorrectly attributed to other academic sources.
+Both experiments provide empirical evidence suggesting that the disputed sentences in the published Comment may have originated from the Audere sponsor document rather than from the cited academic sources.
