@@ -1,0 +1,33 @@
+seed,supply_forecast,summary
+0,NO,"• Use routinely-collected demographic and household testing data to build machine-learning risk scores that pinpoint impending seroconversions twice as efficiently as conventional “risk-group” rules, allowing programs to offer PrEP or other services to far fewer people while maintaining (or improving) prevention impact.  
+• Apply the model’s probability cut-offs to cap the proportion of residents flagged (e.g. ≤45% of the population) yet still capture ≥75–80 % of future infections, ensuring scarce commodities—PrEP, self-tests, partner services—are directed where they avert most new cases.  
+• Detect elevated risk in individuals who do not belong to traditional priority groups (e.g. not young women or known serodiscordant partners), thereby revealing hidden transmission “hot spots” and informing focused community outreach.  
+• Embed the algorithm in community testing campaigns or electronic health records for real-time, point-of-care triage—feasible in rural Kenya/Uganda—and update the model periodically as epidemic patterns shift, keeping prevention strategies data-driven and adaptive."
+1,NO,"• Deploy machine-learning risk scores (e.g., Super Learner built from routine demographic and household data) to flag individuals with the highest one-year seroconversion risk, allowing programs to reach the same 50% of future infections while screening 40-60% fewer people than traditional “risk-group” checklists.  
+
+• Use model outputs to set data-driven enrolment thresholds for PrEP, partner services and repeat testing; for a fixed budget (≤45% of population), algorithms captured up to 20% more new infections than conventional approaches, especially improving coverage of men and older adults often missed by current guidelines.  
+
+• Embed the risk calculator in community or clinic HIV-testing platforms so that eligibility scores are generated in real time, instantly triaging clients to intensified prevention packages without extra surveys or laboratory tests.  
+
+• Update the models periodically with incoming surveillance and electronic-health-record data, enabling programs to adapt targeting as local epidemics evolve and maintaining efficiency even in settings of universal ART and high viral suppression."
+2,NO,"• Train machine-learning risk scores on routinely collected demographic & testing data (as in the SEARCH study) to flag individuals whose 1-year seroconversion risk is highest, enabling programs to channel PrEP, condoms, partner services and repeat testing to those most likely to benefit.  
+
+• Embed the algorithm in community testing tools or electronic health records so that, at the point of care, staff receive automatic “high-risk” prompts—overcoming under-reporting of sexual behaviour and uncovering risk outside traditional groups.  
+
+• Exploit the efficiency gains: in rural Kenya/Uganda the model captured 50 % of future infections while targeting only 18 % of the population (vs 42 % with simple risk-group rules), cutting the number needed to reach one seroconversion by ~2-fold and releasing resources for wider coverage.  
+
+• Re-train the model periodically with new surveillance data to keep pace with shifting epidemics, and allow region- or age-specific cut-offs (e.g., higher sensitivity settings for youth) so programmes remain both adaptive and equitable."
+3,NO,"• Deploy machine-learning HIV risk scores (e.g., Super Learner models built from routine census/testing data) to pinpoint the smallest subset of people who account for most future seroconversions, allowing PrEP, condoms and counseling to be offered to ~40-60 % fewer individuals while maintaining the same prevention coverage.  
+
+• Embed the algorithm in community or clinic testing platforms so that, at the point of HIV-negative test‐result delivery, staff receive an automated “high-risk” flag and can immediately initiate PrEP referral or intensified follow-up.  
+
+• Use model outputs to set data-driven eligibility thresholds that adapt to local epidemiology (region-, age-, or sex-specific cut-offs), ensuring resources reach overlooked groups beyond traditional risk categories (e.g., older men, mobile workers).  
+
+• Continuously retrain the model with new testing, treatment and mobility data to keep pace with shifting transmission patterns and to evaluate program impact (fewer predicted high-risk individuals over time indicates success)."
+4,NO,"• Deploy machine-learning risk scores built from routinely collected demographic/testing data to rank individuals’ 1-year seroconversion risk, capturing high-risk people who do not fall into traditional categories (eg, not young women or serodiscordant couples).  
+
+• Use the scores to triage prevention resources: at equal sensitivity the model halved the population needing services, and when coverage is capped (≤45%) it identified 10-20 % more impending infections than “risk-group” or standard regression approaches, cutting the number-needed-to-target and program costs.  
+
+• Embed the algorithm in community campaigns or electronic health records so a point-of-contact risk score automatically triggers offers of PrEP, partner services, or intensified testing for those flagged high-risk.  
+
+• Apply region- or age/sex-specific score cut-offs (e.g., guarantee minimum coverage for youth) and periodically retrain with new surveillance data, keeping targeting equitable, adaptive and aligned with the shifting epidemic."

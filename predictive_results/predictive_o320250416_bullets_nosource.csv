@@ -1,0 +1,40 @@
+seed,supply_forecast,summary
+0,NO,"• Targeted risk forecasting – integrate electronic health records, geospatial data, and social-network signals to predict where and among whom new HIV infections are likely to cluster, enabling proactive outreach and PrEP/condom distribution before transmission occurs.  
+
+• Precision PrEP adherence support – use machine-learning models on pharmacy refills, wearable data, and mobile-app engagement to identify individuals at imminent risk of PrEP discontinuation and trigger tailored reminders or peer-navigator interventions.  
+
+• Dynamic resource allocation – continuously predict clinic load, testing demand, and stock-out probabilities; re-route mobile testing units and redistribute diagnostics, ART, and prevention commodities in real time for maximal coverage with limited budgets.  
+
+• Outbreak early-warning dashboards – analyze anonymized lab reporting, social media chatter, and mobility patterns to flag emerging transmission hotspots, guiding rapid community testing events and partner-notification efforts."
+1,NO,"• Pinpoint priority populations and hotspots by combining surveillance, mobility, and social-media data to forecast where new infections are most likely, allowing outreach teams to focus testing and PrEP on the highest-risk people and places.  
+
+• Allocate limited resources dynamically through models that simulate intervention impact and cost-effectiveness under multiple scenarios, guiding decision-makers on where to deploy staff, condoms, or self-test kits for maximal incidence reduction.  
+
+• Trigger just-in-time, personalized nudges—text reminders, telehealth check-ins, peer support—by predicting individual lapses in PrEP adherence or condom use, thereby averting periods of heightened susceptibility.  
+
+• Detect early clusters and transmission networks via real-time phylogenetic and case-report modeling, enabling rapid “ring prevention” strategies (focused testing, partner notification, community PrEP drives) before outbreaks expand.  
+
+• Optimize combination prevention packages by forecasting synergistic effects of behavioral, biomedical, and structural interventions, helping programs tailor mixes that deliver the greatest community-level impact."
+2,NO,"• Real-time risk stratification: Fuse electronic health records, behavioral surveys, and geospatial data to predict who and where new infections are most likely, enabling highly targeted PrEP, testing, and education outreach.  
+
+• Hotspot forecasting for resource allocation: Spatiotemporal models can anticipate near-term incidence surges, guiding the timed deployment of mobile clinics, condoms, and peer educators to neighborhoods weeks before spikes occur.  
+
+• Personalized adherence support: Machine-learning algorithms that monitor pharmacy refills, SMS engagement, and wearable data can flag impending PrEP/ART non-adherence and trigger tailored reminders or navigator interventions.  
+
+• Intervention-mix optimization: Simulation and reinforcement-learning tools can test thousands of strategy combinations (e.g., PrEP scale-up plus needle exchange) under budget constraints, recommending the most cost-effective package for each setting.  
+
+• Continuous program monitoring & anomaly detection: Models that track real-time surveillance data can spot unexpected rises in HIV indicators or service gaps, prompting rapid corrective action and iterative program improvement."
+3,YES,"• Identify high-risk individuals and locations in near-real-time by integrating historical incidence, mobility, demographic and social-media data, enabling precise allocation of testing kits, condoms and PrEP outreach teams.  
+
+• Forecast impending stock-outs of prevention commodities (e.g., PrEP, ART, test kits) by learning from supply-chain, clinic attendance and seasonality patterns, reducing service interruptions.  
+
+• Tailor prevention messaging and PrEP adherence support through models that predict engagement likelihood, delivering AI-driven, culturally sensitive nudges to those most at risk of drop-off.  
+
+• Optimize combination-prevention program design by simulating the epidemiological impact and cost-effectiveness of different intervention mixes under varying behavioral and biological scenarios."
+4,NO,"• Identify individual- and community-level risk: Machine-learning models that integrate electronic health records, geospatial data, STI co-infection rates, and social determinants can flag people or neighborhoods where HIV incidence is likely to rise, guiding targeted testing and PrEP outreach.  
+
+• Forecast outbreak clusters in real time: Combining viral-genomic surveillance with mobility and social-media signals lets models predict where transmission networks are expanding, enabling rapid deployment of contact tracing and harm-reduction services before clusters grow.  
+
+• Optimize resource allocation and service placement: Predictive algorithms can simulate different budget and intervention mixes (e.g., condom distribution, needle-exchange sites, PrEP versus treatment-as-prevention) to recommend the highest-impact configuration for a given region and timeframe.  
+
+• Personalize retention and adherence support: Models that analyze pharmacy refill logs, appointment histories, and engagement metrics can anticipate which PrEP or ART users are at risk of dropping out, triggering tailored reminders, peer-navigator outreach, or differentiated service delivery."
