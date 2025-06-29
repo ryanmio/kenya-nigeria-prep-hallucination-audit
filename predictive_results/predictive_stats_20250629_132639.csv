@@ -1,0 +1,13 @@
+model,total,supply_hits,percent
+gpt41mini20250414_bullets,40,5,12.5
+gpt4o20241120_bullets_nosource,10,0,0.0
+gpt41mini20250414_short_nosource,20,4,20.0
+gpt4o20241120_short,20,4,20.0
+o320250416_bullets_nosource,5,1,20.0
+o320250416_short,5,0,0.0
+gpt4o20241120_short_nosource,10,1,10.0
+gpt41mini20250414_bullets_nosource,20,1,5.0
+gpt41mini20250414_short,40,6,15.0
+o320250416_short_nosource,5,0,0.0
+gpt4o20241120_bullets,20,5,25.0
+o320250416_bullets,5,0,0.0

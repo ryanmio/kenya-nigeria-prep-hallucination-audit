@@ -1,0 +1,80 @@
+seed,supply_forecast,summary
+0,NO,"Artificial intelligence can transform HIV prevention across the entire cascade—from identifying who is at risk to ensuring sustained protection—by learning from the torrents of data now generated in health, mobile and social-media ecosystems.
+
+1. Hyper-local forecasting. Machine-learning models fed with electronic medical records, pharmacy claims, mobility patterns and viral-genomics can anticipate where incidence will rise weeks in advance, guiding agile deployment of testing, condoms and pre-exposure prophylaxis (PrEP).
+
+2. Personalised risk scoring. Smartphone apps can embed privacy-preserving algorithms that continuously update an individual’s risk profile from geolocation, dating-app behaviour and self-reported sex or drug use, then push just-in-time nudges—ordering self-tests, booking PrEP refills or offering tele-counselling—when vulnerability peaks.
+
+3. Conversational agents. Multilingual chatbots trained on community-generated queries provide 24/7, stigma-free answers about HIV and sexual health, combat misinformation and support medication adherence, while routing complex cases to human providers.
+
+4. Precision outreach. Natural-language processing of social-media streams can spot emerging chem-sex trends or anti-PrEP narratives; generative AI then crafts culturally tailored counter-messaging and micro-targeted adverts to high-risk networks.
+
+5. Smart partner services. Entity-resolution algorithms can match fragmented surveillance records, enabling faster, privacy-conscious notification of exposed partners and offering them testing or PrEP.
+
+6. Supply-chain optimisation. Reinforcement-learning tools balance stock levels of condoms, test kits and PrEP at thousands of clinics, reducing shortages and waste.
+
+To avert widening inequities, developers must bake in algorithmic fairness, community governance and data-minimisation from the start. Used responsibly, AI can convert big data into smarter, faster and more equitable HIV prevention. (249 words)"
+1,NO,"Artificial intelligence can strengthen HIV-prevention across the entire continuum—from identifying populations at risk to accelerating biomedical innovation—while complementing, not replacing, community-led efforts.
+
+1. Precision epidemiology  
+   Machine-learning models that fuse electronic health records, geospatial data, and social-media signals can forecast micro-epidemics weeks in advance, directing testing, pre-exposure prophylaxis (PrEP) and harm-reduction resources to the right neighbourhoods at the right time.
+
+2. Individual risk stratification  
+   AI algorithms embedded in routine clinic software can flag patients whose patterns of sexually transmitted infections, prescription gaps or social determinants suggest elevated HIV acquisition risk, prompting tailored counselling or rapid PrEP initiation.
+
+3. Behaviour-aware digital interventions  
+   Chatbots and recommendation engines trained on culturally specific language data sets can deliver stigma-free sexual-health education, appointment reminders and motivational messages, adapting content in real time to user engagement and mood.
+
+4. Optimised PrEP delivery  
+   Reinforcement-learning approaches can design adherence-support schedules and select cost-effective outreach venues, while computer-vision tools verify pill ingestion or injectable dosing without intrusive human monitoring.
+
+5. Supply-chain and programme management  
+   Predictive analytics can anticipate stock-outs of condoms, PrEP or self-test kits, and simulate distribution scenarios under budget constraints to minimise service gaps.
+
+6. Accelerated biomedical R&D  
+   Deep-learning platforms already used in antiviral drug discovery can screen chemical libraries for long-acting prophylactics and design immunogens for next-generation vaccines.
+
+Ethical guardrails—transparency, participatory model development, bias audits and data-sovereignty agreements—are essential to ensure that AI enhances, rather than exacerbates, inequities in HIV prevention."
+2,NO,"Artificial intelligence (AI) can strengthen HIV prevention across the full cascade—from situational awareness to biomedical innovation—while sharpening equity and efficiency.
+
+1. Epidemic intelligence  
+   • Machine-learning models that fuse surveillance, electronic health records and social-determinants data can predict micro-hot-spots and transmission networks weeks in advance, guiding mobile testing or needle-exchange units before outbreaks expand.  
+   • Real-time analysis of social-media and mobility streams helps detect behavioural shifts (e.g., festival-related risk) and misinformation, triggering rapid counter-messaging.
+
+2. Precision prevention  
+   • Risk-scoring algorithms embedded in routine care can flag candidates for pre-exposure prophylaxis (PrEP) with greater sensitivity than guideline check-lists, while fairness audits reduce algorithmic bias against women, adolescents and key populations.  
+   • Digital phenotyping via smartphones—patterns of geolocation, sleep or text sentiment—can forecast adherence lapses; AI chatbots then deliver just-in-time counselling, refill reminders or mental-health support.
+
+3. Community engagement  
+   • Multilingual natural-language models power confidential chat services that answer sexual-health queries 24/7, increasing reach where clinicians are scarce.  
+   • Generative AI can co-create culturally resonant videos or memes with peer educators, amplifying uptake of testing and self-testing.
+
+4. Supply-chain optimisation  
+   • Reinforcement learning predicts demand for condoms, test kits and PrEP, streamlining distribution to clinics and community pick-up points, minimising stock-outs.
+
+5. Biomedical discovery  
+   • Deep-learning platforms accelerate design of broadly neutralising antibodies, microbicides and vaccine immunogens by sifting through vast sequence and structural datasets.
+
+Ethical guardrails—privacy-preserving analytics, transparent governance and community co-design—are essential to ensure that AI augments, rather than undermines, trust and equity in the global HIV response."
+3,NO,"Artificial intelligence offers a transformative set of tools for every stage of HIV prevention. Machine-learning models trained on demographic, behavioural, mobility and viral-genetic data can identify micro-epidemics weeks earlier than conventional surveillance, allowing public-health teams to deploy testing and outreach resources before transmission chains expand. Within clinics, AI-driven risk calculators embedded in electronic health records can flag individuals who would benefit most from pre-exposure prophylaxis (PrEP) or partner services, reducing clinician bias and missed opportunities.  
+
+Conversational agents delivered through SMS or social media can provide 24/7, stigma-free counselling, answer adherence questions and nudge users to refill PrEP or return for testing. Computer-vision algorithms in smartphone apps can confirm pill ingestion or interpret at-home rapid-test results, turning the phone into an adherence coach and real-time reporting device.  
+
+On the population level, deep-learning analysis of anonymised, aggregated mobility and social-media data can map sexual-network structures and forecast where pop-up testing sites or self-test kit vending machines will achieve the highest uptake. Reinforcement-learning frameworks can then iteratively optimise prevention budgets across interventions and geographies.  
+
+Finally, generative models that explore vast chemical and immunological spaces are shortening the path to long-acting antiretrovirals, broadly protective vaccines and microbicides. Ensuring data privacy, algorithmic fairness and community co-design will be essential so that AI augments, rather than replaces, human-centred HIV prevention."
+4,NO,"Artificial intelligence can strengthen every step of HIV prevention, turning vast but fragmented data into actionable insight.
+
+1. Precision epidemiology: Machine-learning models that ingest surveillance, mobility, genomic and social-media data can forecast where transmissions are likely to surge weeks in advance, guiding pop-up testing, condom distribution and mobile PrEP clinics before outbreaks occur.
+
+2. Individual risk stratification: Smartphone apps or electronic-health-record algorithms can integrate behaviour, STI history and geospatial exposure to produce dynamic, privacy-preserving risk scores. This enables clinicians to offer “opt-out” PrEP, and can trigger automated reminders or telehealth outreach when risk rises.
+
+3. Adaptive PrEP adherence support: Conversational agents trained on large language models can deliver stigma-free counselling, refill coordination and side-effect triage 24/7, while computer-vision algorithms embedded in phone cameras can verify pill ingestion for long-acting regimens, flagging lapses for human follow-up.
+
+4. Tailored prevention messaging: Generative AI can iterate culturally resonant campaigns in local languages, A/B-testing images, copy and delivery channels in real time to maximise uptake among key populations.
+
+5. Molecular surveillance at scale: Deep-learning tools can rapidly classify HIV sequences, detect novel resistance mutations and map transmission clusters, informing targeted antiretroviral stewardship and partner services without breaching anonymity.
+
+6. Supply-chain optimisation: Reinforcement-learning engines that analyse demand patterns, weather and logistics constraints can cut stock-outs of condoms, self-test kits and PrEP by routing supplies proactively.
+
+Successful deployment will require ethical guardrails—algorithmic fairness audits, community codesign, robust data governance—and investment in digital infrastructure in low-resource settings. With these safeguards, AI can help bend the infection curve toward zero. (248 words)"
