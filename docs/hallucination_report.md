@@ -51,7 +51,7 @@ Every step of the pipeline—from PDF conversion to statistical analysis—can b
 
 ## Conclusion
 
-LLMs frequently hallucinate the claim that **AI-powered telemedicine PrEP exists in both Kenya *and* Nigeria** when summarising the Audere report, but **never do so** when summarising the peer-reviewed PATH ePrEP guide cited in the paper.  
-This strongly suggests the sentence in the Lancet Comment originated from an AI-generated summary of the Audere marketing paper rather than from the cited scientific sources.
+LLMs frequently hallucinate the claim that **AI-powered telemedicine PrEP exists in both Kenya *and* Nigeria** when summarising the Audere report, but **never do so** when summarising the peer-reviewed PATH ePrEP guide cited in the paper.
+These results suggest that the sentence in the Lancet Comment may have come from an AI-generated summary of the Audere marketing paper rather than from the cited scientific sources.
 
 The full pipeline (code, prompts, seeds, raw summaries, statistics) is available in this repository for independent verification. 

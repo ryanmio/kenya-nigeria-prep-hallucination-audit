@@ -78,4 +78,4 @@ If true, modern LLMs should reproduce the supply-forecast claim when summarising
 
 ## Conclusion
 
-Our controlled experiment demonstrates that the contentious "forecasting supply needs" sentence is reproduced **only** when the sponsor's white-paper is provided, never when the cited scientific study is used.  This is strong empirical evidence that the Comment's authors (or an assisting LLM) drew material from the Audere document and mis-attributed it to Balzer. 
+Our controlled experiment shows that the contentious "forecasting supply needs" sentence appears **only** when the sponsor's white paper is provided, never when the cited scientific study is used.  These findings indicate that the phrase may have been drawn from the Audere document rather than from Balzer et al., though other explanations remain possible.
