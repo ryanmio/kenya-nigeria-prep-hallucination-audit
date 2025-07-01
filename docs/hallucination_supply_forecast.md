@@ -2,7 +2,9 @@
 
 ## Hypothesis
 
-The Lancet HIV Comment's sentence _"Predictive models have been used to **forecast supply needs** for HIV prevention"_ did **not** originate from the academic paper it cites (Balzer et al., CID 2020).  Instead, it was copied—directly or via an LLM—from a sponsor marketing document (Audere white-paper) which contains that exact phrase.  
+The Lancet HIV Comment's sentence _"Predictive models could further enhance these programmes by helping providers identify individuals at greatest risk of HIV acquisition, forecast supply needs, and target outreach efforts more effectively.7"_ combines ideas from multiple sources. The risk-stratification and targeted-outreach clauses are consistent with Balzer et al. (CID 2020), the cited reference. **The middle phrase—"forecast supply needs"—does not appear in Balzer et al. and instead closely matches language in a sponsor marketing document (Audere white-paper).**
+
+Our hypothesis is that this supply-forecast fragment entered the sentence via an AI-assisted rewrite that drew on the Audere text and was then mis-attributed to Balzer.
 
 If true, modern LLMs should reproduce the supply-forecast claim when summarising the Audere paper, but **not** when summarising Balzer et al.  As an additional control, we test the same prompts with **no source** to measure the background hallucination rate.
 
@@ -76,4 +78,4 @@ If true, modern LLMs should reproduce the supply-forecast claim when summarising
 
 ## Conclusion
 
-Our controlled experiment demonstrates that the contentious "forecasting supply needs" sentence is reproduced **only** when the sponsor's white-paper is provided, never when the cited scientific study is used.  This is strong empirical evidence that the Comment's authors (or an assisting LLM) drew material from the Audere document and mis-attributed it to Balzer et al. 
+Our controlled experiment demonstrates that the contentious "forecasting supply needs" sentence is reproduced **only** when the sponsor's white-paper is provided, never when the cited scientific study is used.  This is strong empirical evidence that the Comment's authors (or an assisting LLM) drew material from the Audere document and mis-attributed it to Balzer. 
