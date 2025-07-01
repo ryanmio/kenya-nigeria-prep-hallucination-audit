@@ -2,12 +2,14 @@
 """Aggregate hallucination counts across result CSVs.
 
 Usage:
-    python analyze_results.py
+    python analyze_results.py [directory]
 
+If no directory is specified, searches current directory for results_*.csv files.
 Outputs a small table to console: prompt label, total summaries, hallucination hits, %.
 """
 from pathlib import Path
 import csv
+import sys
 from datetime import datetime
 
 PROMPT_MAP = {
@@ -35,6 +37,13 @@ def analyze(csv_path: Path):
 
 
 def main():
+    # Check if directory argument provided
+    search_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(".")
+    
+    if not search_dir.exists():
+        print(f"[ERROR] Directory '{search_dir}' does not exist.", file=sys.stderr)
+        sys.exit(1)
+    
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     out_path = Path(f"hallucination_stats_{ts}.csv")
 
@@ -50,7 +59,11 @@ def main():
             "seed_count",
         ])
 
-        for csv_path in Path(".").glob("results_*.csv"):
+        csv_files = list(search_dir.glob("results_*.csv"))
+        if not csv_files:
+            print(f"[WARN] No results_*.csv files found in '{search_dir}'", file=sys.stderr)
+            
+        for csv_path in csv_files:
             total, hits, rate, seed_values = analyze(csv_path)
 
             # filename pattern: results_<model>_<prompt>.csv

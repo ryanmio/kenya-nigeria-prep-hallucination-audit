@@ -43,84 +43,153 @@ The sentence about predictive models to "forecast supply needs" cites Balzer et 
 
 When asked to generate text about predictive models in HIV prevention, LLMs showed dramatically different patterns depending on their source material. The Balzer et al. paper cited in the Comment never triggered any mentions of supply forecasting across 70 test generations, while the Audere white paper consistently produced this exact phrase. Most revealing was our discovery that Audere itself misinterprets its own McKinsey citation: the referenced McKinsey data actually shows supply-chain management is among the least effective AI applications, undermining rather than supporting the supply forecasting claim.
 
-## Repository Structure
-
-```
-├── 📁 results/
-│   ├── 📁 final/           # Kenya+Nigeria experiment results
-│   └── 📁 archived/        # Historical results
-├── 📁 predictive_results/  # Supply forecasting experiment results
-├── 📁 stats/
-│   ├── 📁 final/           # Statistical summaries
-├── 📁 scripts/
-│   ├── summarize_test.py          # Kenya+Nigeria experiment
-│   ├── predictive_models/         # Supply forecasting experiment
-│   │   ├── run_predictive_test.py # Main test script
-│   │   └── analyze_predictive_results.py # Analysis
-│   ├── analyze_results.py         # Statistical analysis
-│   └── diff_stats.py             # Comparison utilities
-├── 📁 source_materials/
-│   ├── audere-whitepaper.md       # Audere sponsor white paper
-│   ├── eprep-source.md            # PATH ePrEP guide (cited)
-│   ├── ciz1096.pdf                # Balzer et al. paper (cited)
-│   └── paper-in-question.md       # Original Lancet Comment
-├── 📁 docs/
-│   ├── hallucination_report.md          # Kenya+Nigeria analysis
-│   ├── hallucination_supply_forecast.md # Supply forecasting analysis
-│   └── investigation_log.md              # Investigation timeline
-└── requirements.txt                      # Python dependencies
-```
-
 ## Quick Start
 
-### Prerequisites
-- Python 3.7+
-- OpenAI API key
-
-### Installation
+### Setup (One-Time)
 
 ```bash
-# 1. Clone repository
+# 1. Clone and enter the repository
 git clone <repository-url>
 cd kenya-nigeria-prep-hallucination-audit
 
-# 2. Create virtual environment
+# 2. Set up Python environment
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Set up OpenAI API key
-export OPENAI_API_KEY="sk-your-key-here"
-# Or create a .env file with: OPENAI_API_KEY=sk-your-key-here
+# 3. Add your OpenAI API key
+export OPENAI_API_KEY="sk-your-actual-key-here"
+# Or create a .env file: echo "OPENAI_API_KEY=sk-your-key" > .env
 ```
 
-### Running Experiments
+### View Existing Results (No API Key Needed)
 
-#### Kenya + Nigeria Experiment
 ```bash
-# Run with GPT-4o (10 seeds)
-python scripts/summarize_test.py --seeds 10 --model gpt-4o-2024-11-20
+# See summary stats for Kenya+Nigeria experiment
+python scripts/analyze_results.py results/final
 
-# Analyze results
-python scripts/analyze_results.py results/final/results_*.csv
-```
-
-#### Supply Forecasting Experiment
-```bash
-# Test with cited source (Balzer et al.)
-python scripts/predictive_models/run_predictive_test.py --seeds 10 --model gpt-4o-2024-11-20 --prompt-type short
-
-# Test with uncited source (Audere)
-python scripts/predictive_models/run_predictive_test.py --src-file source_materials/audere-whitepaper.md --seeds 10 --model gpt-4o-2024-11-20 --prompt-type short
-
-# Test without source (control)
-python scripts/predictive_models/run_predictive_test.py --no-source --seeds 10 --model gpt-4o-2024-11-20 --prompt-type short
-
-# Analyze results
+# See summary stats for Supply Forecasting experiment  
 python scripts/predictive_models/analyze_predictive_results.py
 ```
+
+## 📋 Full Reproduction Workflow
+
+Follow these steps **exactly** to rebuild every figure and CSV in the `docs/` write-ups.  (💡 Replace `<SEEDS>` with your preferred run size – 10 for a quick check, 100–1000 for the numbers reported in the paper.)
+
+### 0. Environment (only once)
+```bash
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt          # installs openai, tqdm, pdfminer.six, etc.
+export OPENAI_API_KEY="sk-…"             # or put into .env
+```
+
+### 1. Kenya + Nigeria Tele-PrEP Experiment
+Run **both** source texts so we can contrast the hallucination rate.
+
+```bash
+# 1-A  Audere white-paper (suspected source)
+python scripts/summarize_test.py \
+       --src source_materials/audere-whitepaper.md \
+       --model gpt-4o-2024-11-20 \
+       --seeds <SEEDS>
+
+# 1-B  PATH ePrEP guide (the paper actually cites this)
+python scripts/summarize_test.py \
+       --src source_materials/eprep-source.md \
+       --model gpt-4o-2024-11-20 \
+       --seeds <SEEDS>
+
+# Replicate with other models
+for M in gpt-4.1-mini-2025-04-14 o3-2025-04-16; do
+    python scripts/summarize_test.py --src source_materials/audere-whitepaper.md --model $M --seeds <SEEDS>
+    python scripts/summarize_test.py --src source_materials/eprep-source.md      --model $M --seeds <SEEDS>
+done
+```
+
+Aggregate stats (combines every `results_*.csv` in the current dir):
+```bash
+python scripts/analyze_results.py
+```
+This writes `hallucination_stats_<timestamp>.csv`.
+
+To see the delta between Audere vs PATH runs:
+```bash
+python scripts/diff_stats.py <AUDERE_STATS.csv> <PATH_STATS.csv>
+```
+Both files are in the directory created above; pick the two matching timestamps.
+
+### 2. Supply-Forecasting Experiment
+We run **three experimental conditions—cited paper (Balzer), sponsor paper (Audere), and a no-source control**—and test each with two prompt variants (`short`, `bullets`).
+
+```bash
+# 2-A  Cited paper (Balzer et al.)
+python scripts/predictive_models/run_predictive_test.py \
+       --model gpt-4o-2024-11-20 \
+       --prompt-type short \
+       --seeds <SEEDS>
+python scripts/predictive_models/run_predictive_test.py \
+       --model gpt-4o-2024-11-20 \
+       --prompt-type bullets \
+       --seeds <SEEDS>
+
+# 2-B  Sponsor white-paper (Audere)
+python scripts/predictive_models/run_predictive_test.py \
+       --model gpt-4o-2024-11-20 \
+       --prompt-type short \
+       --src-file source_materials/audere-whitepaper.md \
+       --seeds <SEEDS>
+python scripts/predictive_models/run_predictive_test.py \
+       --model gpt-4o-2024-11-20 \
+       --prompt-type bullets \
+       --src-file source_materials/audere-whitepaper.md \
+       --seeds <SEEDS>
+
+# 2-C  No source (control)
+python scripts/predictive_models/run_predictive_test.py \
+       --model gpt-4o-2024-11-20 \
+       --prompt-type short \
+       --no-source \
+       --seeds <SEEDS>
+python scripts/predictive_models/run_predictive_test.py \
+       --model gpt-4o-2024-11-20 \
+       --prompt-type bullets \
+       --no-source \
+       --seeds <SEEDS>
+```
+
+Aggregate:
+```bash
+python scripts/predictive_models/analyze_predictive_results.py
+```
+Outputs `predictive_results/predictive_stats_<timestamp>.csv` with hit rates for each run.
+
+### 3. Inspect The Outputs
+
+| What | Where | Notes |
+|------|-------|-------|
+| Raw Kenya+Nigeria generations | `results_*.csv` | One CSV per model × prompt × source |
+| Kenya+Nigeria summary stats | `hallucination_stats_*.csv` | Created by `analyze_results.py` |
+| Supply-forecast raw generations | `predictive_results/predictive_*.csv` | One CSV per model × prompt × condition |
+| Supply-forecast stats | `predictive_results/predictive_stats_*.csv` | Created by `analyze_predictive_results.py` |
+
+All numbers shown in `docs/hallucination_report.md` and `docs/hallucination_supply_forecast.md` were produced exactly this way with:
+```
+# Kenya+Nigeria  : <SEEDS>=1000 (GPT-4o) 20/20 (4-mini) 5/5 (o3)
+# Supply-forecast: <SEEDS>=100  (GPT-4o) 100/100 (4-mini) 25/25 (o3)
+```
+
+📝  **Tip**: to save OpenAI credits while debugging, set `<SEEDS>=1` and everything still runs end-to-end.
+
+That's the complete, deterministic pipeline—nothing up the sleeve.
+
+
+### What the Experiments Do
+
+1. **Kenya+Nigeria Experiment**: Tests if LLMs generate the disputed claim *"In Kenya and Nigeria, AI powers telemedicine..."* when given the Audere sponsor document vs. the cited academic sources.
+
+2. **Supply Forecasting Experiment**: Tests if LLMs generate *"forecast supply needs"* language when given different source materials.
+
+Both experiments output CSV files with the generated text and statistical summaries showing hallucination rates.
 
 ## Documentation
 
@@ -129,13 +198,5 @@ python scripts/predictive_models/analyze_predictive_results.py
 - **[Investigation Log](docs/investigation_log.md)** - Transparent timeline of investigation
 - **[Source Materials](source_materials/)** - All original documents
 
-## Reproducibility
-
-All experiments are fully reproducible with:
-- Deterministic seeds logged
-- Complete prompt texts preserved  
-- Timestamped outputs
-- Model versions specified
-- Dependencies pinned in requirements.txt
-
 Both experiments provide empirical evidence suggesting that the disputed sentences in the published Comment may have originated from the Audere sponsor document rather than from the cited academic sources.
+
