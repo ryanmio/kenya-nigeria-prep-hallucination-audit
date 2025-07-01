@@ -62,4 +62,20 @@ I also re-ran the workflow on a second disputed sentence: *"Predictive models co
 
 The journal responded this morning. Peter Hayward apologized for the delay and explained that, because this is the first time The Lancet HIV has encountered a case like this, he is consulting colleagues in the wider Lancet group and that due diligence is taking longer than expected. He hopes to have a full response by the end of the week. I acknowledged his update, thanked him for the ongoing review, and noted that this [one](https://github.com/ryanmio/kenya-nigeria-prep-hallucination-audit/blob/main/docs/pattern/citation7_staff_count_error.md) numerical typo could likely be addressed quickly without waiting for the broader investigation.
 
+---
+
+## Entry 8: July 1, 2025 - Repository Reproducibility Polish
+
+Today I did a full pass to make the project **turn-key reproducible** for outside reviewers:
+
+1. Re-tested every script end-to-end with `--seeds 1` to keep costs low while verifying CLI flags and output paths.
+2. Refactored `scripts/analyze_results.py` so it accepts an optional directory argument (`python analyze_results.py [dir]`).  This removes the hard-coded current-dir limitation.
+3. Overhauled `README.md`:
+   • Clear **Quick-Start** for viewing existing results without an API key.
+   • Added a single **📋 Full Reproduction Workflow** block that rebuilds *all* CSVs and stats in the docs, including both prompt types and all three supply-forecast conditions.
+
+I hope with this polish any reviewer can clone the repo and regenerate every figure in the audit.
+
+---
+
 *This log will be updated as the investigation progresses. All entries reflect my thinking at the time of writing and may be revised based on new evidence.* 
