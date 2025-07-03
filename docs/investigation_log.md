@@ -78,4 +78,14 @@ I hope with this polish any reviewer can clone the repo and regenerate every fig
 
 ---
 
+## Entry 9: July 2, 2025 - Conflict of Interest
+
+Today I carefully reviewed the Lancet HIV and ICMJE guidelines for conflict-of-interest (COI) disclosure. The guidelines clearly require authors to disclose all financial and non-financial relationships from the past 36 months that could be perceived as influencing their published work. The Lancet HIV explicitly states that failure to disclose a relevant COI constitutes an error requiring correction.
+
+I also confirmed Lancet’s correction policy: they do explicitly state they do not correct simple bibliographic errors (wrong references), but they do correct misleading quoted statements that cite references out of context. This directly applies here, as the problematic sentences in question appear mis-cited rather than merely mis-referenced, clearly justifying a correction or at least published correspondence under their policy.
+
+[Correction policy](https://www.thelancet.com/pb-assets/Lancet/authors/correction-policy-1637238881673.pdf)
+
+---
+
 *This log will be updated as the investigation progresses. All entries reflect my thinking at the time of writing and may be revised based on new evidence.* 
