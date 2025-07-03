@@ -35,6 +35,10 @@ Every step of the pipeline—from PDF conversion to statistical analysis—can b
 | gpt-4.1-mini | global     | 20 | 20 | 100 % |
 | gpt-4.1-mini | tele_one   | 20 | 20 | 100 % |
 | gpt-4.1-mini | tele_multi | 20 | 16 | 80 % |
+| o3 | africa     | 1 | 1 | 100 % |
+| o3 | global     | 1 | 1 | 100 % |
+| o3 | tele_one   | 2 | 1 | 50 % |
+| o3 | tele_multi | 2 | 2 | 100 % |
 
 ### PATH ePrEP Guide (`eprep-source.md`)
 
@@ -48,6 +52,10 @@ Every step of the pipeline—from PDF conversion to statistical analysis—can b
 | gpt-4.1-mini | global     | 5 | **0** | 0 % |
 | gpt-4.1-mini | tele_one   | 5 | **0** | 0 % |
 | gpt-4.1-mini | tele_multi | 5 | **0** | 0 % |
+| o3 | africa     | 0 | **0** | 0 % |
+| o3 | global     | 0 | **0** | 0 % |
+| o3 | tele_one   | 0 | **0** | 0 % |
+| o3 | tele_multi | 0 | **0** | 0 % |
 
 ## Conclusion
 
