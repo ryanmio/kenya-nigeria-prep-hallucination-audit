@@ -195,6 +195,7 @@ Both experiments output CSV files with the generated text and statistical summar
 
 - **[Kenya+Nigeria Analysis](docs/hallucination_report.md)** - Original experiment findings
 - **[Supply Forecasting Analysis](docs/hallucination_supply_forecast.md)** - Second experiment findings  
+- **[Conflict-of-Interest Analysis](docs/undisclosed_audere_coi.md)** - Detailed audit of undisclosed author ties and COI disclosure requirements  
 - **[Investigation Log](docs/investigation_log.md)** - Transparent timeline of investigation
 - **[Source Materials](source_materials/)** - All original documents
 
