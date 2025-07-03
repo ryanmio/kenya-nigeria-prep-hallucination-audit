@@ -86,6 +86,23 @@ I also confirmed Lancet’s correction policy: they do explicitly state they do 
 
 [Correction policy](https://www.thelancet.com/pb-assets/Lancet/authors/correction-policy-1637238881673.pdf)
 
+
+---
+
+## Entry 10: July 3, 2025 - Tracing the Claims
+
+I have begun tracing the claims in the Lancet Comment to their source materials and evaluating the evidence for each claim, as well as the evidence of AI involvment and ultimately error.
+
+I found some very interesting things. Most notably, a citation from the Audere white paper, which is authored by the same person as the Lancet Comment, appears to be a a combination of two separate McKinsey white papers. This is a telltale sign of AI hallucination. The citation reads:
+
+> McKinsey Global Institute. The Future of AI in Healthcare. McKinsey & Company; 2023. Available from: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year
+
+The title of the citation is "The Future of AI in Healthcare", however the citation hyperlinks to "The state of AI in 2023: Generative AI’s breakout year". Further, we can find no evidence of a McKinsey Global Institute report titled "The Future of AI in Healthcare", although we found a LinkedIn and blog post that repeat this same citation, both of which GPTzero flagged as 100% AI-generated with high confidence. This is documented in more detail in the [trace of claims](trace_of_claims.md) document.
+
+Given that the author of the Audere white paper is the same as the author of the Lancet Comment, this is clear evidence the author has used AI during the research and/or writing of their published work before without adaquate attention to detail.
+
+While the Audere white paper is not peer-reviewed, if the author relied on the same workflow to write the Lancet Comment, this would be a serious error that has the potential to mislead policy-makers and funders. I beleive it is important to continue looking into this angle as it could be a cautionary example for medical journals and authors.
+
 ---
 
 *This log will be updated as the investigation progresses. All entries reflect my thinking at the time of writing and may be revised based on new evidence.* 
