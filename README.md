@@ -4,7 +4,9 @@
 
 This repository contains reproducible experiments demonstrating AI hallucination patterns that explain citation mismatches in a published HIV prevention research Comment. We test two disputed claims that appear to originate from the Audere sponsor white paper but are instead attributed to other academic sources.
 
-> **🔍 Transparency Note**: This investigation follows an open, evidence-based approach. Our [investigation log](docs/investigation_log.md) documents our evolving understanding, uncertainties, and commitment to following evidence wherever it leads.
+> **Terminology Note**: Throughout this repository we use "AI hallucination" as a shorthand, even though the behavior we investigate is more nuanced than inventing facts out of thin air. In this case the models conflate two genuine statements of the Audere white paper— for example, AI in Kenya and tele-PrEP in Nigeria—and merge them into a single, misleading claim. The output is therefore better described as *source-blend hallucination* or *AI conflation*, but we keep the familiar term for searchability and to align with the broader literature on LLM errors.
+
+> **Transparency Note**: This investigation follows an open, evidence-based approach. Our [investigation log](docs/investigation_log.md) documents our evolving understanding, uncertainties, and commitment to following evidence wherever it leads.
 
 ## Background
 
@@ -30,9 +32,6 @@ The sentence citing the PATH ePrEP guide actually originates from AI summarizati
 2. **No hallucination from the cited source.**  Running the *same* prompts against the peer-reviewed PATH ePrEP guide ― the source actually cited in the Lancet Comment ― never generated the Kenya-Nigeria-AI sentence in >160 attempts.  
 3. **Evidence of source mis-attribution.**  The patterns we observed suggest the sentence in the Lancet paper may have originated from an AI summary of the *Audere* white paper rather than from the scholarly sources it cites.  This analysis provides evidence consistent with "citation laundering".
 4. **Ambiguity drives hallucination.**  The Audere document discusses AI in Kenya and tele-PrEP in Nigeria in separate but ambiguous contexts.  LLMs routinely fuse those ideas into a single, more concise claim.
-
-### Terminology note  
-Throughout this repository we use "AI hallucination" as a shorthand, even though the behaviour we investigate is more nuanced than inventing facts out of thin air.  In this case the models **conflate** two genuine statements of the Audere white paper—AI in Kenya and tele-PrEP in Nigeria—and merge them into a single, misleading claim.  The output is therefore better described as *source-blend hallucination* or *AI conflation*, but we keep the familiar term for searchability and to align with the broader literature on LLM errors.
 
 ## Experiment 2: Supply Forecasting Claim
 
@@ -178,10 +177,7 @@ All numbers shown in `docs/hallucination_report.md` and `docs/hallucination_supp
 # Supply-forecast: <SEEDS>=100  (GPT-4o) 100/100 (4-mini) 25/25 (o3)
 ```
 
-📝  **Tip**: to save OpenAI credits while debugging, set `<SEEDS>=1` and everything still runs end-to-end.
-
-That's the complete, deterministic pipeline—nothing up the sleeve.
-
+**Tip**: OpenAI now grants 1 M–10 M free tokens if you opt into their optional "share data for research" program, letting you run every experiment in this repo for free with all compatible models (<https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai>).
 
 ### What the Experiments Do
 
