@@ -105,3 +105,5 @@ These citation errors demonstrate patterns consistent with AI-generated referenc
 ---
 
 *Analysis conducted July 2025 following reproducible methodology documented in the kenya-nigeria-prep-hallucination-audit repository*
+
+> **Limitations**: The absence of a cited document does not prove intentional fabrication. If you have access to any of the questioned sources, please share them so we can update this audit.

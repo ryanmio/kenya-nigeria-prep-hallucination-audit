@@ -63,3 +63,5 @@ LLMs frequently hallucinate the claim that **AI-powered telemedicine PrEP exists
 These results suggest that the sentence in the Lancet Comment may have come from an AI-generated summary of the Audere marketing paper rather than from the cited scientific sources.
 
 The full pipeline (code, prompts, seeds, raw summaries, statistics) is available in this repository for independent verification. 
+
+> **Limitations**: Model behaviour may change with new releases and different prompts. Our sample sizes are finite. Please rerun these tests and share any contradictory or null results so we can refine this analysis.

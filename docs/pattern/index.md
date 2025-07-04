@@ -10,3 +10,4 @@ This folder contains granular documentation of individual citation or factual di
 | [citation12_private_sector_collab_claim.md](citation12_private_sector_collab_claim.md) | US private-sector collaboration claim not supported by Salient Advisory report |
 | [citation13_key_pop_loss_claim.md](citation13_key_pop_loss_claim.md) | Claim about key populations losing most during transitions not supported by Ruffner et al. |
 
+*Please open an issue if you find a citation that contradicts these summaries.*

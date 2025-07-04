@@ -8,3 +8,5 @@ Over-stating the source in this way risks conveying that the cited authors have 
 
 Lancet Comment: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00258-2/fulltext
 Cited source: https://onlinelibrary.wiley.com/doi/10.1002/jia2.26396
+
+*If further context from the cited Viewpoint justifies the Comment's statement, we welcome a clarification so this record can be corrected.*

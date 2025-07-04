@@ -121,3 +121,5 @@ Finally, I purchased a GPTzero subscription, which allowed me to run a full audi
 ---
 
 *This log will be updated as the investigation progresses. All entries reflect my thinking at the time of writing and may be revised based on new evidence.* 
+
+*If you conduct related analyses that contradict these notes, please share them. Transparent records of failed replications help us understand where our assumptions may be flawed.*

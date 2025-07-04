@@ -123,3 +123,5 @@ These omissions create a false impression of independent analysis and unbiased e
 ---
 
 In summary, the Lancet HIV Comment failed to transparently disclose key connections to Audere, including one author's active advisory role and multiple undisclosed intellectual contributions from seven authors. This clearly constitutes a significant disclosure gap under the journal’s own guidelines, warranting a formal correction.
+
+> **Limitations**: This document relies solely on publicly available information. If any affiliations or disclosures have been updated or clarified, please let us know so we can correct the record.
