@@ -1,6 +1,4 @@
-WORK IN PROGRESS
-
-This document traces two claims in the Lancet HIV Comment to AI-generated sources. While the first claim's chain of evidence is more open to interpretation, the second claim lifts verbatim text from a sponsor's white paper, **which itself contains outright fabricated citations.**
+This document traces two claims in the Lancet HIV Comment to AI-generated sources. While the first claim's chain of evidence appears more open to interpretation, the second claim seems to lift verbatim text from a sponsor's white paper, **which itself appears to include fabricated citations.**
 
 ---
 
@@ -19,11 +17,11 @@ The Audere white paper includes the following sentences which are relevant to th
 
 The Audere white paper does not cite any references for these claims, so we cannot evaluate the chain of evidence beyond the Audere white paper with any confidence.
 
-However, the passage that contains both of these claims is flagged by GPTzero, a popular tool for detecting AI-written text, as likely AI-written. It assigned a probability of 100% to the passage. You can run the same test on the passage [here](https://app.gptzero.me/documents/90b7593e-7f65-4db7-9883-49f4ba3d059a/share). The author of the white paper is the same as the author of the Lancet Comment, so it seems reasonable to assume AI may have also been used during the writing of the Comment, even if the final wording was not outright AI generated. This could be a case where the author used AI to gather information and then wrote the Comment by hand, but included errors propagated by the AI.
+However, the passage that contains both of these claims was flagged as likely AI-written (probability 100%) by GPTzero, a popular tool for identifying AI-generated prose. You can run the same test on the passage [here](https://app.gptzero.me/documents/90b7593e-7f65-4db7-9883-49f4ba3d059a/share). The author of the white paper is the same as the author of the Lancet Comment, so it seems reasonable to assume AI may have also been used during the writing of the Comment, even if the final wording was not outright AI generated. This could be a case where the author used AI to gather information and then wrote the Comment by hand, but included errors propagated by the AI.
 
-Further, the white paper includes several references that are seriously misrepresentative of the claims, and some outright contradict the claims entirely. Given the white paper is not peer-reviewed, we do not evaluate the merit of the claims versus the references in this repo, but we do view these erroneous references as evidence that the author of the white paper and Comment does not always carefully review the references they cite in published work.
+Additionally, several references in the white paper appear misaligned with the associated claims, and a few may even contradict them outright. Given the white paper is not peer-reviewed, we do not evaluate the merit of the claims versus the references in this repo, but we do view these erroneous references as evidence that the author of the white paper and Comment does not always carefully review the references they cite in published work.
 
-Further, we could not find any evidence of AI-powered telemedicine-based PrEP services in Nigeria during a cursory web search. Given the specificity of the claim, it seems unlikey the authors would have pulled it out of thin air, and AI misinterpretation somewhere in the chain of evidence seems more likely.
+In an initial web search we were unable to locate independent evidence of AI-powered telemedicine-based PrEP services in Nigeria. While the absence of evidence is not conclusive, it raises the possibility that an AI-related misinterpretation may have introduced the claim.
 
 ---
 
@@ -35,7 +33,7 @@ The claim in the Lancet Comment is:
 
 > At the systems level, AI could enable efficient resource planning and better decision making. Programme managers can analyse large-scale datasets to forecast medication stock, generate culturally tailored advice, identify geographical hotspots, improve outreach approaches, and refine training and resource allocation.
 
-The Lancet Comment does not cite the Audere white paper for this claim, and instead cites Balzer et al's [*Machine learning to identify persons at high-risk of human immunodeficiency virus acquisition in rural Kenya and Uganda*](../source_materials/ciz1096.pdf), which does not support the claim. Revealingly, the claim appears to lift exact text from the Audere white paper, as discussed below.
+The Lancet Comment does not cite the Audere white paper for this statement, instead referencing Balzer et al.'s [*Machine learning to identify persons at high-risk of human immunodeficiency virus acquisition in rural Kenya and Uganda*](../source_materials/ciz1096.pdf), which, on our reading, does not appear to support the claim.
 
 ### 2. Audere White Paper
 [Artificial intelligence to enhance HIV prevention in age of disruptions](https://static1.squarespace.com/static/64ff6a6dd00b77132a60f99b/t/681ccce37331774ae0b52d42/1746717923752/Leveraging+AI+to+enhance+HIV+prevention.pdf)
@@ -54,10 +52,10 @@ It appears much of the Lancet Comment's claim is lifted from the Audere white pa
 - "optimizing outreach" is changed to "improve outreach approaches"
 - "identifying geographic hotspots for intervention" is changed to "identify geographical hotspots"
 
-More concerning, the Audere white paper combines multiple separate McKinsey white papers into one citation. The citation reads:
+More concerning, the Audere white paper appears to combine two separate McKinsey white papers into a single citation. The citation reads:
 > McKinsey Global Institute. The Future of AI in Healthcare. McKinsey & Company; 2023. Available from: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year
 
-The title of the citation is "The Future of AI in Healthcare", however the citation hyperlinks to "The state of AI in 2023: Generative AI’s breakout year". This is a telltale sign of AI hallucination. Worse, we can find no evidence of a McKinsey Global Institute report titled "The Future of AI in Healthcare", although we found a LinkedIn and blog post that repeat this same citation, both of which appear entirely AI-generated.
+The citation's title is "The Future of AI in Healthcare," yet the hyperlink leads to "The state of AI in 2023: Generative AI's breakout year." This mismatch is consistent with patterns often seen in AI-generated citations. To date, we have not located an authentic McKinsey Global Institute report titled "The Future of AI in Healthcare." However, we did find both a LinkedIn post and a blog article that reproduce the same hybrid citation; both appear to be AI-generated.
 
 - LinkedIn post: https://www.linkedin.com/pulse/future-ai-healthcare-trends-predictions-piyush-david-1ikjc/
 - GPTzero analysis showing 100% AI-generated: https://app.gptzero.me/documents/10bc721f-5fb6-4009-a36c-5fd5334293dd/share
@@ -65,11 +63,11 @@ The title of the citation is "The Future of AI in Healthcare", however the citat
 - Blog post: https://www.numberanalytics.com/blog/ai-revolution-healthcare-pharma-next5years
 - GPTzero analysis showing 100% AI-generated: https://app.gptzero.me/documents/a0e7ae9d-6994-46c9-b2a1-a0ff24c67902/share
 
-Could it be a coincidence that the author of the Audere white paper cited the same combination of McKinsey reports as two 100% AI-generated posts? Sure, but it seems highly unlikely.
+While a coincidence is possible, the alignment across sources seems improbable.
 
-More likely is that the author relied upon an AI-generated citation that does not exist, as did the authors of the LinkedIn post and blog post. AI tools such as OpenAI's Deep Research are well-known to hallucinate citations in this way.
+A plausible explanation is that the author—like the creators of the LinkedIn and blog posts—may have unknowingly relied on an AI-generated citation.
 
-Let's pretend for a moment that the Audere white paper made an error in either the title of the citation or the URL. Given the URL is more specific, we will evaluate the McKinsey State of AI in 2023 report and continue to trace the claim from there.
+Let's consider that the Audere white paper may have made an error in either the title of the citation or the URL. Given the URL is more specific, we will evaluate the McKinsey State of AI in 2023 report and continue to trace the claim from there.
 
 ### 3. McKinsey State of AI in 2023
 The state of AI in 2023: Generative AI’s breakout year https://mck.co/3YdJbED
@@ -80,4 +78,4 @@ Thus, not only is the Comment's claim unsupported by the Audere white paper, it 
 
 The McKinsey white paper also does not include any evidence for the claim that AI could enable optimized outreach or identify geographical hotspots for intervention, as the Audere white paper claims.
 
-We assess the Lancet Comment's claim to be the direct result of AI hallucination with no factual basis. 
+We assess the Lancet Comment's claim to be the direct result of AI hallucination with no factual basis.
