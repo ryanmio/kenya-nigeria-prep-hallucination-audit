@@ -38,19 +38,10 @@ Thank you for your interest in contributing to this research project! This repos
 - Add type hints where appropriate
 - Keep functions focused and testable
 
-## Research Ethics
-
-This project involves:
-- Responsible disclosure of AI limitations
-- Reproducible research practices
-- Proper citation of sources
-- Ethical use of API resources
-
 ### Transparency and Negative Results
 We appreciate skepticism and welcome replication attempts. If a proposed
 contribution yields results that contradict our findings, please document those
-"negative" outcomes in detail so the community can learn from them. Clear notes
-on assumptions and uncertainties help everyone improve the work.
+"negative" outcomes in detail so the community can learn from them.
 
 ## Questions?
 
