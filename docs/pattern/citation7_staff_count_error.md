@@ -12,3 +12,4 @@ If left uncorrected, the figure risks minimising how disruptive a funding suspen
 Lancet Comment: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00258-2/fulltext
 Cited source: https://www.amfar.org/press-releases/trump-administrations-order-requiring-immediate-suspension-of-all-hiv-services-provided-by-pepfar-will-place-lives-at-risk/
 
+*Corrections welcome if other staffing figures exist that clarify this discrepancy.*

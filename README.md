@@ -197,3 +197,11 @@ Both experiments output CSV files with the generated text and statistical summar
 
 Both experiments provide empirical evidence suggesting that the disputed sentences in the published Comment may have originated from the Audere sponsor document rather than from the cited academic sources.
 
+## Limitations and Request for Replication
+
+These results are **not definitive**. Model behaviour can shift as APIs and
+prompting techniques evolve. We welcome replication attempts and especially
+encourage sharing of **negative or contradictory findings**. If you spot an
+error or have evidence that challenges our assumptions, please open an issue or
+pull request so the community can review it.
+

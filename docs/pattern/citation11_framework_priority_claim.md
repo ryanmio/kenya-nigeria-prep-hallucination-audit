@@ -8,3 +8,5 @@ I could have missed a sentence that more strongly supports the Comment's wording
 
 Lancet Comment: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00258-2/fulltext
 Cited source: https://onlinelibrary.wiley.com/doi/10.1002/jia2.26396
+
+*This interpretation may be incomplete. If the cited article contains stronger evidence than we found, please point it out so we can revise this note.*

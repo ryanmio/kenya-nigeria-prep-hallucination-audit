@@ -10,3 +10,5 @@ As written, the claim attributes policy relevance to a source that does not supp
 
 Lancet Comment: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00258-2/fulltext
 Cited source: https://www.salientadvisory.com/report-media/hivtbmalaria10innovations/
+
+*If we have misread the Salient Advisory report, or if other evidence better supports this claim, please share it so we can update the analysis.*
