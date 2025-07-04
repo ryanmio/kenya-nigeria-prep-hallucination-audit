@@ -8,3 +8,5 @@ Attributing this stronger causal claim to Ruffner et al. overstates the evidence
 
 Lancet Comment: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00258-2/fulltext
 Cited source: https://gh.bmj.com/content/9/1/e014513
+
+*If additional data show key populations do lose the most during transitions, please cite it so we can revise this file.*
