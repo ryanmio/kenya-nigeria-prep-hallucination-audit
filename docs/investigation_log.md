@@ -86,7 +86,6 @@ I also confirmed Lancet’s correction policy: they do explicitly state they do 
 
 [Correction policy](https://www.thelancet.com/pb-assets/Lancet/authors/correction-policy-1637238881673.pdf)
 
-
 ---
 
 ## Entry 10: July 3, 2025 - Tracing the Claims
@@ -102,6 +101,22 @@ The title of the citation is "The Future of AI in Healthcare", however the citat
 Given that the author of the Audere white paper is the same as the author of the Lancet Comment, this is clear evidence the author has used AI during the research and/or writing of their published work before without adaquate attention to detail.
 
 While the Audere white paper is not peer-reviewed, if the author relied on the same workflow to write the Lancet Comment, this would be a serious error that has the potential to mislead policy-makers and funders. I beleive it is important to continue looking into this angle as it could be a cautionary example for medical journals and authors.
+
+---
+
+## Entry 11: July 4, 2025 - Audit of Questionable Citations in Audere White-Paper
+
+Today I drafted a standalone markdown document (`docs/audere-white-paper-citations.md`) that systematically audits five problematic references (#6, #7, #8, #10, #17) in the Audere consultation white-paper.  The write-up:
+
+1. Presents each citation exactly as printed in the white-paper.
+2. States the specific defect (fabricated title, broken link, irrelevant URL, or unverifiable document).
+3. Provides transparent evidence for each claim and notes remaining uncertainties.
+
+Although I cannot prove AI involvement without access to the authors' workflow, the pattern across multiple citations makes human transcription error increasingly unlikely.  I remain open to correction if a legitimate source surfaces.
+
+I shared these concerns with Audere via email. To my surprise and their credit, CEO Dino Rech responded almost immediately. He very politely thanked me for bringing this to their attention and said he would look into it. He also offered to make time to discuss the report and any themes I'm concerned about. This is a very positive sign and I look forward to the conversation. In my reply, I expressed that I'm a strong advocate of AI in research, but I also believe in human oversight to catch or correct errors before they impact real-world decisions. I am very appreciative of their willingness to engage and am hopeful this will lead to a constructive conversation.
+
+Finally, I purchased a GPTzero subscription, which allowed me to run a full audit in excess of the free tier's 5000 character limit. I have exported and committed all of the scans to the `docs/GPTZero_scans` folder. I included every scan I ran, even if the result was confidently human-generated, for full transparency.
 
 ---
 

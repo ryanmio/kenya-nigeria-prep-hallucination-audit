@@ -57,7 +57,7 @@ More concerning, the Audere white paper appears to combine two separate McKinsey
 
 The citation's title is "The Future of AI in Healthcare," yet the hyperlink leads to "The state of AI in 2023: Generative AI's breakout year." This mismatch is consistent with patterns often seen in AI-generated citations. To date, we have not located an authentic McKinsey Global Institute report titled "The Future of AI in Healthcare." However, we did find both a LinkedIn post and a blog article that reproduce the same hybrid citation; both appear to be AI-generated.
 
-- LinkedIn post: https://www.linkedin.com/pulse/ future-ai-healthcare-trends-predictions-piyush-david-1ikjc/
+- LinkedIn post: https://www.linkedin.com/pulse/future-ai-healthcare-trends-predictions-piyush-david-1ikjc/
 - GPTzero analysis showing 100% AI-generated: [GPTZero AI Scan](../docs/GPTZero_scans/GPTZero%20AI%20Scan%20-%20%20Piyush%20D.pdf)
 
 - Blog post: https://www.numberanalytics.com/blog/ai-revolution-healthcare-pharma-next5years
