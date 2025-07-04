@@ -80,3 +80,5 @@ Thus, not only is the Comment's claim unsupported by the Audere white paper, it 
 The McKinsey white paper also does not include any evidence for the claim that AI could enable optimized outreach or identify geographical hotspots for intervention, as the Audere white paper claims.
 
 We assess the Lancet Comment's claim to be the direct result of AI hallucination with no factual basis.
+
+*These links trace our reasoning but should not be seen as definitive proof. If you locate stronger evidence or spot mistakes in this chain, we would value a correction or alternative interpretation.*
