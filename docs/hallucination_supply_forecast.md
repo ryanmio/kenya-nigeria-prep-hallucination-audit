@@ -1,5 +1,9 @@
 # AI “Forecasting Supply Needs” Claim: Hallucination Audit
 
+> **Note**: This analysis reflects our reading of public documents. It is
+> provided for discussion and may contain mistakes. Please let us know if you
+> find any inaccuracies so they can be addressed.
+
 ## Hypothesis
 
 The Lancet HIV Comment's sentence _"Predictive models could further enhance these programmes by helping providers identify individuals at greatest risk of HIV acquisition, forecast supply needs, and target outreach efforts more effectively.7"_ combines ideas from multiple sources. The risk-stratification and targeted-outreach clauses are consistent with Balzer et al. (CID 2020), the cited reference. **The middle phrase—"forecast supply needs"—does not appear in Balzer et al. and instead closely matches language in a sponsor marketing document (Audere white-paper).**
