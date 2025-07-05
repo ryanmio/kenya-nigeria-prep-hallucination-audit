@@ -56,7 +56,11 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-# 3. Add your OpenAI API key
+# 3. Download source materials
+# See source_materials/source_links.md for required academic papers
+# Download and place them in the source_materials/ directory
+
+# 4. Add your OpenAI API key
 export OPENAI_API_KEY="sk-your-actual-key-here"
 # Or create a .env file: echo "OPENAI_API_KEY=sk-your-key" > .env
 ```
@@ -80,6 +84,9 @@ Follow these steps **exactly** to rebuild every figure and CSV in the `docs/` wr
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt          # installs openai, tqdm, pdfminer.six, etc.
 export OPENAI_API_KEY="sk-…"             # or put into .env
+
+# Download required source materials (see source_materials/source_links.md)
+# Place downloaded files in source_materials/ directory
 ```
 
 ### 1. Kenya + Nigeria Tele-PrEP Experiment
@@ -193,9 +200,11 @@ Both experiments output CSV files with the generated text and statistical summar
 - **[Supply Forecasting Analysis](docs/hallucination_supply_forecast.md)** - Second experiment findings  
 - **[Conflict-of-Interest Analysis](docs/undisclosed_audere_coi.md)** - Detailed audit of undisclosed author ties and COI disclosure requirements  
 - **[Investigation Log](docs/investigation_log.md)** - Transparent timeline of investigation
-- **[Source Materials](source_materials/)** - All original documents
+- **[Source Materials Links](source_materials/source_links.md)** - Download links for required academic papers
 
 Both experiments provide empirical evidence suggesting that the disputed sentences in the published Comment may have originated from the Audere sponsor document rather than from the cited academic sources.
+
+> **Replication Note**: To reproduce these experiments, you'll need to download the source materials listed in [`source_materials/source_links.md`](source_materials/source_links.md). The original copyrighted documents are not included in this repository.
 
 ## Limitations and Request for Replication
 
