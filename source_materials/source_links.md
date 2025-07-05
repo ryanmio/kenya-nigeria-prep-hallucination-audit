@@ -1,7 +1,5 @@
 # Source Materials Links
 
-## Required Source Materials
-
 To replicate the experiments, download the following source materials and place them in this directory:
 
 ### Machine Learning to Identify Persons at High-Risk of HIV Acquisition in Rural Kenya and Uganda
@@ -29,13 +27,9 @@ To replicate the experiments, download the following source materials and place 
 **Link**: https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai%20in%202023%20generative%20ais%20breakout%20year/the-state-of-ai-in-2023-generative-ais-breakout-year_vf.pdf  
 **Save as**: `the-state-of-ai-in-2023-generative-ais-breakout-year-v3.pdf`
 
-## Additional Materials
-
-The following materials are also used in the analysis:
-
-- **ePrEP Technical Considerations Guide** (PATH, 2024) - Available from PATH website
-- **The State of AI in 2023** (McKinsey) - Available from McKinsey website  
-
-## Note
-
-Some source materials may have been converted to text format (.md files) for computational analysis. The original PDFs are required for complete replication. 
+### Online pharmacy PrEP and PEP: Technical considerations and learnings from Kenya
+**Author**: PATH
+**Year**: 2024
+**Type**: Technical Guide
+**Save as**: `eprep-source.md`
+**Note**: This document is included directly in the repository as it is not subject to copyright restrictions

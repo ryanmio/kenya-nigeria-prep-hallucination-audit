@@ -27,7 +27,7 @@ Here's the comment I sent:
 > 
 > Given the high stakes in HIV prevention, could you clarify these discrepancies?"
 
-The comment was deleted by the lead author, Jirair Ratevosian.
+The comment was deleted by the lead author.
 
 ---
 
@@ -45,14 +45,15 @@ I decided to develop additional evidence to better understand the potential sour
 
 ## Entry 5: June 25, 2025 - Author Blocks Me, Contacting Duke Integrity Office
 
-After my LinkedIn comment went unanswered, I later discovered that the lead author, Jirair Ratevosian, had blocked me from viewing their profile before deleting my comment. I understand that researchers may receive unwanted contacts and may have reasons for limiting interactions, but this response left me unable to seek direct clarification that might have resolved my concerns. Given the potential research integrity implications and my inability to engage directly with the author, I reluctantly decided to contact Duke University's Office of Scientific Integrity, emphasizing that I hoped this could lead to clarification rather than conflict. Dr. Donna Kessler acknowledged that my concerns would be reviewed under applicable policies.
+After my LinkedIn comment went unanswered, I later discovered that the lead author had blocked me from viewing their profile before deleting my comment. I understand that researchers may receive unwanted contacts and may have reasons for limiting interactions, but this response left me unable to seek direct clarification that might have resolved my concerns. Given the potential research integrity implications and my inability to engage directly with the author, I reluctantly decided to contact Duke University's Office of Scientific Integrity, emphasizing that I hoped this could lead to clarification rather than conflict. Dr. Donna Kessler acknowledged that my concerns would be reviewed under applicable policies.
 
 ---
 
 ## Entry 6: June 29, 2025 - Expanding the Investigation
 
 The journal said they hoped to have a response by June 27, but there's been no word yet despite my follow-up. Duke is reviewing under their policies, and the author has blocked direct communication. I believe my analysis suggests a possible explanation for the citation discrepancy - that the sentence may have originated from AI summarization of sponsor materials rather than cited sources - but I remain open to alternative explanations that I may not have considered.
-Today I also spent some time reading other papers and commentary pieces by the lead author, Jirair Ratevosian. Using the same cautious approach, I compared several headline claims with their cited references and, in multiple cases, could not find support for the statements. I have begun documenting those examples in the [pattern folder](/docs/pattern/) of this repository so that any reviewer can check my reading. This early scan strengthens my sense that the original issue may not be isolated, though I still acknowledge the possibility that I have missed context or misunderstood the authors' intent.
+
+Today I also spent some time reading other papers and commentary pieces by the lead author. Using the same cautious approach, I compared several headline claims with their cited references and, in multiple cases, could not find support for the statements. I have begun documenting those examples in the [pattern folder](/docs/pattern/) of this repository so that any reviewer can check my reading. This early scan strengthens my sense that the original issue may not be isolated, though I still acknowledge the possibility that I have missed context or misunderstood the authors' intent.
 
 I also re-ran the workflow on a second disputed sentence: *"Predictive models could further enhance these programmes by helping providers identify individuals at greatest risk of HIV acquisition, forecast supply needs, and target outreach efforts more effectively.7"*  In this sentence, the first and last clauses align with Balzer et al., but the **"forecast supply needs"** clause does not appear in that study.  When the LLMs were forced to base their answer on Balzer et al., supply-forecast language never appeared (0 % hit-rate).  When supplied with the Audere sponsor white-paper, however, the same models repeated the phrase in 25–50 % of generations—mirroring what ended up in the Comment.  The white-paper itself cites McKinsey's 2023 State of AI survey as evidence, yet that survey actually shows supply-chain management is one of the least common and least valuable AI use-cases.  In short, the claim rests on a chain of misinterpretation: McKinsey data → oversold in Audere marketing → copied by an LLM → published in the Comment and mis-cited to Balzer.  As a control, I also ran the prompts with *no source text at all*; supply-forecast wording appeared only occasionally (5–20 percent), confirming it is background knowledge for the models but far less likely to surface than when the Audere text is provided.
 
@@ -82,7 +83,7 @@ I hope with this polish any reviewer can clone the repo and regenerate every fig
 
 Today I carefully reviewed the Lancet HIV and ICMJE guidelines for conflict-of-interest (COI) disclosure. The guidelines clearly require authors to disclose all financial and non-financial relationships from the past 36 months that could be perceived as influencing their published work. The Lancet HIV explicitly states that failure to disclose a relevant COI constitutes an error requiring correction.
 
-I also confirmed Lancet’s correction policy: they do explicitly state they do not correct simple bibliographic errors (wrong references), but they do correct misleading quoted statements that cite references out of context. This directly applies here, as the problematic sentences in question appear mis-cited rather than merely mis-referenced, clearly justifying a correction or at least published correspondence under their policy.
+I also confirmed Lancet's correction policy: they do explicitly state they do not correct simple bibliographic errors (wrong references), but they do correct misleading quoted statements that cite references out of context. This directly applies here, as the problematic sentences in question appear mis-cited rather than merely mis-referenced, clearly justifying a correction or at least published correspondence under their policy.
 
 [Correction policy](https://www.thelancet.com/pb-assets/Lancet/authors/correction-policy-1637238881673.pdf)
 
@@ -96,7 +97,7 @@ I found some very interesting things. Most notably, a citation from the Audere w
 
 > McKinsey Global Institute. The Future of AI in Healthcare. McKinsey & Company; 2023. Available from: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year
 
-The title of the citation is "The Future of AI in Healthcare", however the citation hyperlinks to "The state of AI in 2023: Generative AI’s breakout year". Further, we can find no evidence of a McKinsey Global Institute report titled "The Future of AI in Healthcare", although we found a LinkedIn and blog post that repeat this same citation, both of which GPTzero flagged as 100% AI-generated with high confidence. This is documented in more detail in the [trace of claims](trace_of_claims.md) document.
+The title of the citation is "The Future of AI in Healthcare", however the citation hyperlinks to "The state of AI in 2023: Generative AI's breakout year". Further, we can find no evidence of a McKinsey Global Institute report titled "The Future of AI in Healthcare", although we found a LinkedIn and blog post that repeat this same citation, both of which GPTzero flagged as 100% AI-generated with high confidence. This is documented in more detail in the [trace of claims](trace_of_claims.md) document.
 
 Given that the author of the Audere white paper is the same as the author of the Lancet Comment, this is clear evidence the author has used AI during the research and/or writing of their published work before without adaquate attention to detail.
 
@@ -116,7 +117,24 @@ Although I cannot prove AI involvement without access to the authors' workflow, 
 
 I shared these concerns with Audere via email. To my surprise and their credit, CEO Dino Rech responded almost immediately. He very politely thanked me for bringing this to their attention and said he would look into it. He also offered to make time to discuss the report and any themes I'm concerned about. This is a very positive sign and I look forward to the conversation. In my reply, I expressed that I'm a strong advocate of AI in research, but I also believe in human oversight to catch or correct errors before they impact real-world decisions. I am very appreciative of their willingness to engage and am hopeful this will lead to a constructive conversation.
 
-Finally, I purchased a GPTzero subscription, which allowed me to run a full audit in excess of the free tier's 5000 character limit. I have exported and committed all of the scans to the `docs/GPTZero_scans` folder. I included every scan I ran, even if the result was confidently human-generated, for full transparency.
+Finally, I purchased a GPTzero subscription, which allowed me to run a full audit in excess of the free tier's 5000 character limit. I have exported and committed all of the scans to the `docs/GPTZero_scans` folder. ~~I included every scan I ran, even if the result was confidently human-generated, for full transparency.~~ Note that I had to remove scans of journal entries for copyright compliance, but all other scans are included for transparency.
+
+---
+
+## Entry 12: July 5, 2025 - Author Responds
+
+Yesterday afternoon (July 4) I finally received a direct email reply from one of the authors in response to the concerns I first raised on June 25.  They state that they have already sent a detailed explanation to *The Lancet HIV* editors and that they "welcomes critical engagement," but characterises my escalation to Duke University as "inappropriate and bordering on harassment." They further warn that if my "behavior continues" they will be **forced to seek legal counsel**.
+
+I replied within thirty minutes, clarifying that:
+* My critique is strictly evidence-based and unrelated to their identity, politics, or background.
+* Routing potential publication-integrity issues through the journal and Duke's Office of Scientific Integrity is the *recommended* procedure, not harassment. (See [Duke's policy](https://myresearchpath.duke.edu/topics/misconduct-research) stating "Any individual with concerns about possible research misconduct should report the matter to the misconduct review officer (MRO)")
+* Threatening legal action against documented, good-faith scientific critique risks chilling open discourse.
+
+I reiterated my willingness to correct any factual misunderstandings and thanked them for their contributions.
+
+Given the potential for legal action, I temporarily made this repo private while I reviewed and disclaimed any potential legal liability. During this review, I removed any mention of the author's name other than bylines, added legal disclaimers to several files, and removed any potentially copyrighted content.
+
+I remain open to correcting any factual misunderstandings, and eagerly await the journal's formal response. Until then, I will continue to maintain a professional, evidence-focused tone regardless of any legal posture.
 
 ---
 
