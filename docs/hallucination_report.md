@@ -1,5 +1,9 @@
 # AI-Generated Kenya + Nigeria Tele-PrEP Claim: Hallucination Audit
 
+> **Note**: This analysis reflects our good-faith interpretation of public
+> sources. It is offered for discussion and may contain errors. If you spot any
+> inaccuracies, please let us know so we can correct them.
+
 Paper: https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(25)00158-4/abstract
 
 ## Hypothesis

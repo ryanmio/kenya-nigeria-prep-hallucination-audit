@@ -204,3 +204,12 @@ encourage sharing of **negative or contradictory findings**. If you spot an
 error or have evidence that challenges our assumptions, please open an issue or
 pull request so the community can review it.
 
+## Legal and Conduct Disclaimer
+
+This repository presents our best understanding of publicly available
+information. The analysis and interpretations herein are offered in good faith
+for scholarly discussion. We do not claim to provide legal advice, and no part
+of this project should be read as a personal attack on any individual. If you
+identify errors or believe statements are inaccurate, please let us know so we
+can correct the record.
+

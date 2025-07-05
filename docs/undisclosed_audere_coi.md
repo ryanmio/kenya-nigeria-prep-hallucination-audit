@@ -10,7 +10,7 @@ Workshop‐derived publications are common in global health. When produced trans
 
 3. Misleading COI disclosure: One of the lead authors holds an active Senior Advisor role with Audere (the sponsor of the white paper), yet only discloses receiving "consulting fees." Under the Lancet HIV’s published standards, all active organizational roles—financial or non-financial—must be disclosed due to their perceived influence.
 
-These omissions create a false impression of independent analysis and unbiased evidence. According to Lancet’s correction policy, missing declarations of interest clearly warrant a formal correction.
+These omissions risk creating a misleading impression of independent analysis and unbiased evidence. According to Lancet’s correction policy, missing declarations of interest appear to warrant a formal correction.
 
 ---
 
@@ -122,6 +122,6 @@ These omissions create a false impression of independent analysis and unbiased e
 
 ---
 
-In summary, the Lancet HIV Comment failed to transparently disclose key connections to Audere, including one author's active advisory role and multiple undisclosed intellectual contributions from seven authors. This clearly constitutes a significant disclosure gap under the journal’s own guidelines, warranting a formal correction.
+In summary, the Lancet HIV Comment failed to transparently disclose key connections to Audere, including one author's active advisory role and multiple undisclosed intellectual contributions from seven authors. This appears to constitute a significant disclosure gap under the journal’s own guidelines and may warrant a formal correction.
 
 > **Limitations**: This document relies solely on publicly available information. If any affiliations or disclosures have been updated or clarified, please let us know so we can correct the record.
