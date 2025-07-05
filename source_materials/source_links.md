@@ -20,7 +20,8 @@ To replicate the experiments, download the following source materials and place 
 **Author**: Audere  
 **Type**: White Paper  
 **Link**: https://static1.squarespace.com/static/64ff6a6dd00b77132a60f99b/t/681ccce37331774ae0b52d42/1746717923752/Leveraging+AI+to+enhance+HIV+prevention.pdf  
-**Save as**: `audere-whitepaper.pdf`
+**Save as**: `audere-whitepaper.pdf`  
+**Note**: You may also need to convert this to text format (`audere-whitepaper.md`) for computational analysis
 
 ### The State of AI in 2023: Generative AI's Breakout Year
 **Author**: McKinsey & Company  
