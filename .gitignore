@@ -20,3 +20,9 @@ venv/
 
 # OS files
 Thumbs.db 
+
+# Copyrighted source materials (download links in source_materials/source_links.md)
+source_materials/the-state-of-ai-in-2023-generative-ais-breakout-year-v3.pdf
+source_materials/ePrEP-ePEP-technical-considerations-guide-PATH-2024*.pdf
+source_materials/ciz1096.pdf
+source_materials/audere-whitepaper.pdf
