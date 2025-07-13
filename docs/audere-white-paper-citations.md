@@ -18,6 +18,13 @@ McKinsey Global Institute. The Future of AI in Healthcare. McKinsey & Company; 2
 2. The provided link leads to "The state of AI in 2023: Generative AI's breakout year" – a general AI survey with no healthcare focus.
 3. Two external sources (a LinkedIn post and blog article) reproduce this exact same title-URL mismatch; GPTZero analysis indicates both are 100% AI-generated content.
 
+**Correction Issued:**
+```
+McKinsey Global Institute. The state of AI in 2023: Generative AI’s breakout year. McKinsey & Company; 2023. Available from: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year
+```
+
+The revised reference now points to the *same URL* but swaps in the actual report title—effectively admitting the original title was fabricated. Crucially, the corrected report does **not** discuss health-care supply forecasting, so the citation still fails to support the surrounding claim in the white-paper.
+
 **Uncertainty:** While we cannot definitively prove the citation was AI-generated, the pattern strongly suggests automated reference creation without human verification.
 
 ---
@@ -35,6 +42,13 @@ The Global Fund. Strategy to Integrate Digital Health and AI in Global Fund Prog
 1. **Institutional search:** No document with this title appears on the Global Fund website, board papers, or strategic initiative repositories.
 2. **Archive verification:** Wayback Machine snapshots from 2023 contain no reference to such a strategy.
 3. **Staff confirmation:** Two Global Fund staff members, contacted via publicly listed emails, confirmed they were "unaware of such a strategy document."
+
+**Correction Issued:**
+```
+The Global Fund. (2025). *Eighth Replenishment 2025: Investment Case Report*. The Global Fund to Fight AIDS, Tuberculosis and Malaria. Available from: https://www.theglobalfund.org/media/15380/core_2025-investment-case_report_en.pdf
+```
+
+This replacement swaps a non-existent strategy document for an unrelated *investment case* report. While the new source includes a single, high-level reference to "digital technologies, including artificial intelligence," it offers no substantive discussion of digital health strategy or detailed AI integration—underscoring that the original citation was fabricated rather than merely mis-typed.
 
 **Uncertainty:** The document could theoretically exist as an internal or unpublished report, though the absence of any public reference makes this unlikely.
 
@@ -85,7 +99,9 @@ Ma, Yuanchao et al. "The first AI-based Chatbot to promote HIV self-management: 
 
 ## Implications for Scientific Integrity
 
-These citation errors demonstrate patterns consistent with AI-generated references that lack human verification. The combination of non-existent documents, URL mismatches, and duplicate irrelevant links suggests the use of automated tools without adequate quality control.
+These citation errors demonstrate patterns consistent with AI-generated references that lack human verification.
+
+> **Why the Corrections Matter**  These are not minor errata (e.g., a missing punctuation mark). Audere’s post-publication edits remove entirely **fictitious citations** and replace them with legitimate—but thematically mismatched—documents. That pivot implicitly concedes the originals never existed and further weakens the evidentiary chain supporting the white-paper’s AI claims. A full correction notice or transparency statement would normally be expected in peer-reviewed contexts.
 
 **Potential consequences:**
 - Undermines confidence in the white-paper's evidence base

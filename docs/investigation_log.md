@@ -138,4 +138,14 @@ I remain open to correcting any factual misunderstandings, and eagerly await the
 
 ---
 
+## Entry 13: July 7, 2025 - Response from the Journal
+
+The journal editor responded today, agreeing to correct the misplaced Nigeria reference. They found no evidence of AI-generated text but invited me to submit a Comment on AI maturity in HIV programs.
+
+It seems the editor may have misunderstood my experiment's focus—testing AI as a research assistant introducing upstream errors, not generating final prose. Humans rarely insert random erroneous details like AI does, so I believe there's still an important lesson here for the research community.
+
+## Entry 14: July 13, 2025 - Audere Corrections and Drafting Comment
+
+After taking a weeklong break to disengage entirely and reapproach with fresh perspective—the editor's response sidestepping my detailed repo took time to process—today I noticed Audere has corrected several citation errors I flagged in their white paper, replacing fabricated references with real—but often mismatched—ones. This strengthens my hypothesis about upstream AI involvement propagating to the Commentary. I've begun drafting my own Correspondence piece for potential submission to The Lancet HIV, focusing on AI as a misinformation vector using this as an illustrative example.
+
 *This log will be updated as the investigation progresses. All entries reflect my thinking at the time of writing and may be revised based on new evidence.* 
